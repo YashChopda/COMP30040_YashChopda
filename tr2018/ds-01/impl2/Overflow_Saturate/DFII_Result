@@ -1,0 +1,5 @@
+$DSVERIFIER_HOME/dsverifier ds-01-impl2.c --realization DFII --property OVERFLOW --x-size 10 --overflow-mode SATURATE --bmc ESBMC --solver boolector
+
+VERIFICATION SUCCESSFUL
+BMC program time: 2.720s
+

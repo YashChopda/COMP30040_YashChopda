@@ -1,0 +1,20 @@
+$DSVERIFIER_HOME/dsverifier ds-01-impl1.c --realization TDFII --property OVERFLOW --x-size 10 --overflow-mode SATURATE --bmc ESBMC --solver boolector --show-ce-data 
+
+Violated property:
+  file /home/yash/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/compatibility.h line 36 function __DSVERIFIER_assert
+  assertion expression
+  FALSE
+
+VERIFICATION FAILED
+
+Counterexample Data:
+  Property = OVERFLOW
+  Numerator  = { 1.5000000000000000  -0.5000000000000000 }
+  Denominator  = { 1.0000000000000000  0.0000000000000000 }
+  Numerator Size = 2
+  Denominator Size = 2
+  X Size = 10
+  Sample Time = 0.02
+  Implementation = <2,14>
+  Realization = TDFII
+
