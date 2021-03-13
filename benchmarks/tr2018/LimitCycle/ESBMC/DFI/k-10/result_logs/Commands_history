@@ -1,0 +1,29 @@
+gcc -E benchmarks/ds-01-impl1.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-01-impl1.c
+  149  gcc -E benchmarks/ds-01-impl2.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-01-impl2.c
+  152  gcc -E benchmarks/ds-01-impl2.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-01-impl2.c
+  153  gcc -E benchmarks/ds-01-impl3.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-01-impl3.c
+  154  gcc -E benchmarks/ds-02-impl3.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-02-impl3.c
+  155  gcc -E benchmarks/ds-02-impl2.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-02-impl2.c
+  156  gcc -E benchmarks/ds-02-impl1.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-02-impl1.c
+  157  gcc -E benchmarks/ds-03-impl1.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-03-impl1.c
+  158  gcc -E benchmarks/ds-03-impl2.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-03-impl2.c
+  159  gcc -E benchmarks/ds-03-impl3.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-03-impl3.c
+  160  gcc -E benchmarks/ds-04-impl3.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-04-impl3.c
+  161  gcc -E benchmarks/ds-04-impl2.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-04-impl2.c
+  162  gcc -E benchmarks/ds-04-impl1.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-04-impl1.c
+  163  gcc -E benchmarks/ds-05-impl1.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-05-impl1.c
+  164  gcc -E benchmarks/ds-05-impl2.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-05-impl2.c
+  165  gcc -E benchmarks/ds-05-impl3.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-05-impl3.c
+  166  gcc -E benchmarks/ds-06-impl3.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-06-impl3.c
+  167  gcc -E benchmarks/ds-06-impl2.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-06-impl2.c
+  168  gcc -E benchmarks/ds-06-impl1.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-06-impl1.c
+  169  gcc -E benchmarks/ds-07-impl1.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-07-impl1.c
+  170  gcc -E benchmarks/ds-07-impl2.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-07-impl2.c
+  171  gcc -E benchmarks/ds-07-impl3.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-07-impl3.c
+  172  gcc -E benchmarks/ds-08-impl3.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-08-impl3.c
+  173  gcc -E benchmarks/ds-08-impl2.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-08-impl2.c
+  174  gcc -E benchmarks/ds-08-impl1.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-08-impl1.c
+  175  gcc -E benchmarks/ds-09-impl1.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-09-impl1.c
+  176  gcc -E benchmarks/ds-09-impl2.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-09-impl2.c
+  177  gcc -E benchmarks/ds-09-impl3.c -DBMC=ESBMC -I /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE=10 > ds-09-impl3.c
+
