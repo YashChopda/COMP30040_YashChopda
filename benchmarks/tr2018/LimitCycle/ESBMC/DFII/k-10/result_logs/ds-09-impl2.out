@@ -1,0 +1,15 @@
+Symex completed in: 0.171s (2939 assignments)
+Slicing time: 0.009s (removed 1008 assignments)
+Generated 656 VCC(s), 287 remaining after simplification (1931 assignments)
+No solver specified; defaulting to Boolector
+Encoding remaining VCC(s) using bit-vector/floating-point arithmetic
+Encoding to solver time: 0.090s
+Solving with solver Boolector 3.2.0
+Encoding to solver time: 0.090s
+Runtime decision procedure: 10.808s
+Building error trace
+
+Counterexample:
+X_SIZE must be at least 2 * ds.a_size
+
+VERIFICATION FAILED
