@@ -1,0 +1,12 @@
+Symex completed in: 0.131s (1299 assignments)
+Slicing time: 0.002s (removed 410 assignments)
+Generated 413 VCC(s), 186 remaining after simplification (889 assignments)
+No solver specified; defaulting to Boolector
+Encoding remaining VCC(s) using bit-vector/floating-point arithmetic
+Encoding to solver time: 0.078s
+Solving with solver Boolector 3.2.0
+Encoding to solver time: 0.078s
+Runtime decision procedure: 14.706s
+BMC program time: 14.918s
+
+VERIFICATION SUCCESSFUL
