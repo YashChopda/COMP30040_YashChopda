@@ -1,0 +1,17 @@
+Symex completed in: 0.038s (265 assignments)
+Slicing time: 0.001s (removed 167 assignments)
+Generated 136 VCC(s), 33 remaining after simplification (98 assignments)
+No solver specified; defaulting to Boolector
+Encoding remaining VCC(s) using bit-vector/floating-point arithmetic
+Encoding to solver time: 0.072s
+Solving with solver Boolector 3.2.0
+Encoding to solver time: 0.072s
+Runtime decision procedure: 0.293s
+Building error trace
+
+Violated property:
+  file verify_stability.h line 37 function verify_stability
+  assertion check_stability(_a, ds.a_size)
+  (_Bool)return_value$_check_stability$3
+
+VERIFICATION FAILED
