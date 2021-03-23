@@ -1,0 +1,1120 @@
+ESBMC version 6.6.0 64-bit x86_64 linux
+file ds-02-impl1.c: Parsing
+Converting
+Generating GOTO Program
+GOTO program creation time: 1.179s
+GOTO program processing time: 0.024s
+Starting Bounded Model Checking
+Unwinding loop 386 iteration 1 file dsverifier.h line 422 function call_verification_task
+Unwinding loop 386 iteration 2 file dsverifier.h line 422 function call_verification_task
+Unwinding loop 387 iteration 1 file dsverifier.h line 448 function call_verification_task
+Unwinding loop 387 iteration 2 file dsverifier.h line 448 function call_verification_task
+Unwinding loop 4 iteration 1 file fixed-point.h line 260 function fxp_double_to_fxp_array
+Unwinding loop 4 iteration 2 file fixed-point.h line 260 function fxp_double_to_fxp_array
+Unwinding loop 4 iteration 1 file fixed-point.h line 260 function fxp_double_to_fxp_array
+Unwinding loop 4 iteration 2 file fixed-point.h line 260 function fxp_double_to_fxp_array
+Unwinding loop 209 iteration 1 file verify_overflow.h line 81 function verify_overflow
+Unwinding loop 209 iteration 2 file verify_overflow.h line 81 function verify_overflow
+Unwinding loop 209 iteration 3 file verify_overflow.h line 81 function verify_overflow
+Unwinding loop 209 iteration 4 file verify_overflow.h line 81 function verify_overflow
+Unwinding loop 209 iteration 5 file verify_overflow.h line 81 function verify_overflow
+Unwinding loop 209 iteration 6 file verify_overflow.h line 81 function verify_overflow
+Unwinding loop 209 iteration 7 file verify_overflow.h line 81 function verify_overflow
+Unwinding loop 209 iteration 8 file verify_overflow.h line 81 function verify_overflow
+Unwinding loop 209 iteration 9 file verify_overflow.h line 81 function verify_overflow
+Unwinding loop 209 iteration 10 file verify_overflow.h line 81 function verify_overflow
+Unwinding loop 209 iteration 11 file verify_overflow.h line 81 function verify_overflow
+Unwinding loop 209 iteration 12 file verify_overflow.h line 81 function verify_overflow
+Unwinding loop 209 iteration 13 file verify_overflow.h line 81 function verify_overflow
+Unwinding loop 209 iteration 14 file verify_overflow.h line 81 function verify_overflow
+Unwinding loop 209 iteration 15 file verify_overflow.h line 81 function verify_overflow
+Unwinding loop 210 iteration 1 file verify_overflow.h line 98 function verify_overflow
+Unwinding loop 210 iteration 2 file verify_overflow.h line 98 function verify_overflow
+Unwinding loop 211 iteration 1 file verify_overflow.h line 101 function verify_overflow
+Unwinding loop 211 iteration 2 file verify_overflow.h line 101 function verify_overflow
+Unwinding loop 212 iteration 1 file verify_overflow.h line 104 function verify_overflow
+Unwinding loop 212 iteration 2 file verify_overflow.h line 104 function verify_overflow
+Unwinding loop 95 iteration 1 file functions.h line 70 function shiftR
+Unwinding loop 130 iteration 1 file realizations.h line 54 function fxp_direct_form_2
+Unwinding loop 131 iteration 1 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 131 iteration 2 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 213 iteration 1 file verify_overflow.h line 112 function verify_overflow
+Unwinding loop 95 iteration 1 file functions.h line 70 function shiftR
+Unwinding loop 130 iteration 1 file realizations.h line 54 function fxp_direct_form_2
+Unwinding loop 131 iteration 1 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 131 iteration 2 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 213 iteration 2 file verify_overflow.h line 112 function verify_overflow
+Unwinding loop 95 iteration 1 file functions.h line 70 function shiftR
+Unwinding loop 130 iteration 1 file realizations.h line 54 function fxp_direct_form_2
+Unwinding loop 131 iteration 1 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 131 iteration 2 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 213 iteration 3 file verify_overflow.h line 112 function verify_overflow
+Unwinding loop 95 iteration 1 file functions.h line 70 function shiftR
+Unwinding loop 130 iteration 1 file realizations.h line 54 function fxp_direct_form_2
+Unwinding loop 131 iteration 1 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 131 iteration 2 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 213 iteration 4 file verify_overflow.h line 112 function verify_overflow
+Unwinding loop 95 iteration 1 file functions.h line 70 function shiftR
+Unwinding loop 130 iteration 1 file realizations.h line 54 function fxp_direct_form_2
+Unwinding loop 131 iteration 1 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 131 iteration 2 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 213 iteration 5 file verify_overflow.h line 112 function verify_overflow
+Unwinding loop 95 iteration 1 file functions.h line 70 function shiftR
+Unwinding loop 130 iteration 1 file realizations.h line 54 function fxp_direct_form_2
+Unwinding loop 131 iteration 1 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 131 iteration 2 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 213 iteration 6 file verify_overflow.h line 112 function verify_overflow
+Unwinding loop 95 iteration 1 file functions.h line 70 function shiftR
+Unwinding loop 130 iteration 1 file realizations.h line 54 function fxp_direct_form_2
+Unwinding loop 131 iteration 1 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 131 iteration 2 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 213 iteration 7 file verify_overflow.h line 112 function verify_overflow
+Unwinding loop 95 iteration 1 file functions.h line 70 function shiftR
+Unwinding loop 130 iteration 1 file realizations.h line 54 function fxp_direct_form_2
+Unwinding loop 131 iteration 1 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 131 iteration 2 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 213 iteration 8 file verify_overflow.h line 112 function verify_overflow
+Unwinding loop 95 iteration 1 file functions.h line 70 function shiftR
+Unwinding loop 130 iteration 1 file realizations.h line 54 function fxp_direct_form_2
+Unwinding loop 131 iteration 1 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 131 iteration 2 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 213 iteration 9 file verify_overflow.h line 112 function verify_overflow
+Unwinding loop 95 iteration 1 file functions.h line 70 function shiftR
+Unwinding loop 130 iteration 1 file realizations.h line 54 function fxp_direct_form_2
+Unwinding loop 131 iteration 1 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 131 iteration 2 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 213 iteration 10 file verify_overflow.h line 112 function verify_overflow
+Unwinding loop 95 iteration 1 file functions.h line 70 function shiftR
+Unwinding loop 130 iteration 1 file realizations.h line 54 function fxp_direct_form_2
+Unwinding loop 131 iteration 1 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 131 iteration 2 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 213 iteration 11 file verify_overflow.h line 112 function verify_overflow
+Unwinding loop 95 iteration 1 file functions.h line 70 function shiftR
+Unwinding loop 130 iteration 1 file realizations.h line 54 function fxp_direct_form_2
+Unwinding loop 131 iteration 1 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 131 iteration 2 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 213 iteration 12 file verify_overflow.h line 112 function verify_overflow
+Unwinding loop 95 iteration 1 file functions.h line 70 function shiftR
+Unwinding loop 130 iteration 1 file realizations.h line 54 function fxp_direct_form_2
+Unwinding loop 131 iteration 1 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 131 iteration 2 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 213 iteration 13 file verify_overflow.h line 112 function verify_overflow
+Unwinding loop 95 iteration 1 file functions.h line 70 function shiftR
+Unwinding loop 130 iteration 1 file realizations.h line 54 function fxp_direct_form_2
+Unwinding loop 131 iteration 1 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 131 iteration 2 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 213 iteration 14 file verify_overflow.h line 112 function verify_overflow
+Unwinding loop 95 iteration 1 file functions.h line 70 function shiftR
+Unwinding loop 130 iteration 1 file realizations.h line 54 function fxp_direct_form_2
+Unwinding loop 131 iteration 1 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 131 iteration 2 file realizations.h line 62 function fxp_direct_form_2
+Unwinding loop 213 iteration 15 file verify_overflow.h line 112 function verify_overflow
+Unwinding loop 2 iteration 1 file fixed-point.h line 171 function fxp_verify_overflow_array
+Unwinding loop 2 iteration 2 file fixed-point.h line 171 function fxp_verify_overflow_array
+Unwinding loop 2 iteration 3 file fixed-point.h line 171 function fxp_verify_overflow_array
+Unwinding loop 2 iteration 4 file fixed-point.h line 171 function fxp_verify_overflow_array
+Unwinding loop 2 iteration 5 file fixed-point.h line 171 function fxp_verify_overflow_array
+Unwinding loop 2 iteration 6 file fixed-point.h line 171 function fxp_verify_overflow_array
+Unwinding loop 2 iteration 7 file fixed-point.h line 171 function fxp_verify_overflow_array
+Unwinding loop 2 iteration 8 file fixed-point.h line 171 function fxp_verify_overflow_array
+Unwinding loop 2 iteration 9 file fixed-point.h line 171 function fxp_verify_overflow_array
+Unwinding loop 2 iteration 10 file fixed-point.h line 171 function fxp_verify_overflow_array
+Unwinding loop 2 iteration 11 file fixed-point.h line 171 function fxp_verify_overflow_array
+Unwinding loop 2 iteration 12 file fixed-point.h line 171 function fxp_verify_overflow_array
+Unwinding loop 2 iteration 13 file fixed-point.h line 171 function fxp_verify_overflow_array
+Unwinding loop 2 iteration 14 file fixed-point.h line 171 function fxp_verify_overflow_array
+Unwinding loop 2 iteration 15 file fixed-point.h line 171 function fxp_verify_overflow_array
+Symex completed in: 0.175s (2299 assignments)
+Slicing time: 0.005s (removed 717 assignments)
+Generated 628 VCC(s), 366 remaining after simplification (1582 assignments)
+Encoding remaining VCC(s) using bit-vector/floating-point arithmetic
+Encoding to solver time: 0.084s
+Solving with solver Boolector 3.2.0
+Encoding to solver time: 0.084s
+Runtime decision procedure: 4.329s
+Building error trace
+
+Counterexample:
+
+State 10 file fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp = 1024.000000 (01000000 10010000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 11 file fixed-point.h line 233 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp = 1024 (00000000 00000000 00000000 00000000 00000000 00000000 00000100 00000000)
+
+State 12 file fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue = 0.000000 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 22 file fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp = 0.000000 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 23 file fixed-point.h line 233 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 24 file fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue = 0.000000 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 34 file fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp = 61440.000000 (01000000 11101110 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 35 file fixed-point.h line 233 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp = 61440 (00000000 00000000 00000000 00000000 00000000 00000000 11110000 00000000)
+
+State 36 file fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue = 0.000000 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 46 file fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp = 0.000000 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 47 file fixed-point.h line 233 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 48 file fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue = 51200.000000 (01000000 11101001 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 49 file verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[0] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 50 file verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[0] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 52 file verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[1] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 53 file verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[1] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 55 file verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[2] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 56 file verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[2] = -1024 (11111111 11111111 11111111 11111111 11111111 11111111 11111100 00000000)
+
+State 58 file verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[3] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 59 file verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[3] = 325 (00000000 00000000 00000000 00000000 00000000 00000000 00000001 01000101)
+
+State 61 file verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[4] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 62 file verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[4] = 760 (00000000 00000000 00000000 00000000 00000000 00000000 00000010 11111000)
+
+State 64 file verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[5] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 65 file verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[5] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 67 file verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[6] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 68 file verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[6] = 1024 (00000000 00000000 00000000 00000000 00000000 00000000 00000100 00000000)
+
+State 70 file verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[7] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 71 file verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[7] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 73 file verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[8] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 74 file verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[8] = 1024 (00000000 00000000 00000000 00000000 00000000 00000000 00000100 00000000)
+
+State 76 file verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[9] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 77 file verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[9] = -1024 (11111111 11111111 11111111 11111111 11111111 11111111 11111100 00000000)
+
+State 79 file verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[10] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 80 file verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[10] = -256 (11111111 11111111 11111111 11111111 11111111 11111111 11111111 00000000)
+
+State 82 file verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[11] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 83 file verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[11] = -1024 (11111111 11111111 11111111 11111111 11111111 11111111 11111100 00000000)
+
+State 85 file verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[12] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 86 file verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[12] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 88 file verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[13] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 89 file verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[13] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 91 file verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[14] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 92 file verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[14] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 94 file verify_overflow.h line 105 function verify_overflow thread 0
+----------------------------------------------------
+  waux[0] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 95 file verify_overflow.h line 105 function verify_overflow thread 0
+----------------------------------------------------
+  waux[1] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 99 file functions.h line 71 function shiftR thread 0
+----------------------------------------------------
+  *(z + (signed long int)i) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 101 file functions.h line 73 function shiftR thread 0
+----------------------------------------------------
+  *(z + 0) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 104 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 105 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 108 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 111 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 117 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+An Overflow Occurred in the node b0
+
+State 123 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 124 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 125 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 128 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 129 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 130 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 134 file functions.h line 71 function shiftR thread 0
+----------------------------------------------------
+  *(z + (signed long int)i) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 136 file functions.h line 73 function shiftR thread 0
+----------------------------------------------------
+  *(z + 0) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 139 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 140 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 143 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 146 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 152 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+An Overflow Occurred in the node b0
+
+State 158 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 159 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 160 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 163 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 164 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 165 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 169 file functions.h line 71 function shiftR thread 0
+----------------------------------------------------
+  *(z + (signed long int)i) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 171 file functions.h line 73 function shiftR thread 0
+----------------------------------------------------
+  *(z + 0) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 174 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 175 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 178 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 181 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -1024 (11111111 11111111 11111111 11111111 11111111 11111111 11111100 00000000)
+
+State 187 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = (-1024 << 10) / 1024
+An Overflow Occurred in the node b0
+
+State 193 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -62914560 (11111111 11111111 11111111 11111111 11111100 01000000 00000000 00000000)
+
+State 194 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -61440 (11111111 11111111 11111111 11111111 11111111 11111111 00010000 00000000)
+
+State 195 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -61440 (11111111 11111111 11111111 11111111 11111111 11111111 00010000 00000000)
+
+State 198 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 199 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 200 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -61440 (11111111 11111111 11111111 11111111 11111111 11111111 00010000 00000000)
+
+State 204 file functions.h line 71 function shiftR thread 0
+----------------------------------------------------
+  *(z + (signed long int)i) = -1024 (11111111 11111111 11111111 11111111 11111111 11111111 11111100 00000000)
+
+State 206 file functions.h line 73 function shiftR thread 0
+----------------------------------------------------
+  *(z + 0) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 209 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 210 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 213 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 216 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 325 (00000000 00000000 00000000 00000000 00000000 00000000 00000001 01000101)
+
+State 222 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = 325 (00000000 00000000 00000000 00000000 00000000 00000000 00000001 01000101)
+An Overflow Occurred in the node b0
+
+State 228 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 19968000 (00000000 00000000 00000000 00000000 00000001 00110000 10110000 00000000)
+
+State 229 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 19500 (00000000 00000000 00000000 00000000 00000000 00000000 01001100 00101100)
+
+State 230 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 19500 (00000000 00000000 00000000 00000000 00000000 00000000 01001100 00101100)
+
+State 233 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 52428800 (00000000 00000000 00000000 00000000 00000011 00100000 00000000 00000000)
+
+State 234 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 51200 (00000000 00000000 00000000 00000000 00000000 00000000 11001000 00000000)
+
+State 235 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 70700 (00000000 00000000 00000000 00000000 00000000 00000001 00010100 00101100)
+
+State 239 file functions.h line 71 function shiftR thread 0
+----------------------------------------------------
+  *(z + (signed long int)i) = 325 (00000000 00000000 00000000 00000000 00000000 00000000 00000001 01000101)
+
+State 241 file functions.h line 73 function shiftR thread 0
+----------------------------------------------------
+  *(z + 0) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 244 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 245 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 248 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 251 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 760 (00000000 00000000 00000000 00000000 00000000 00000000 00000010 11111000)
+
+State 257 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = 760 (00000000 00000000 00000000 00000000 00000000 00000000 00000010 11111000)
+An Overflow Occurred in the node b0
+
+State 263 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 46694400 (00000000 00000000 00000000 00000000 00000010 11001000 10000000 00000000)
+
+State 264 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 45600 (00000000 00000000 00000000 00000000 00000000 00000000 10110010 00100000)
+
+State 265 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 45600 (00000000 00000000 00000000 00000000 00000000 00000000 10110010 00100000)
+
+State 268 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -16640000 (11111111 11111111 11111111 11111111 11111111 00000010 00011000 00000000)
+
+State 269 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -16250 (11111111 11111111 11111111 11111111 11111111 11111111 11000000 10000110)
+
+State 270 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 29350 (00000000 00000000 00000000 00000000 00000000 00000000 01110010 10100110)
+
+State 274 file functions.h line 71 function shiftR thread 0
+----------------------------------------------------
+  *(z + (signed long int)i) = 760 (00000000 00000000 00000000 00000000 00000000 00000000 00000010 11111000)
+
+State 276 file functions.h line 73 function shiftR thread 0
+----------------------------------------------------
+  *(z + 0) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 279 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 280 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 283 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 286 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 292 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+An Overflow Occurred in the node b0
+
+State 298 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 299 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 300 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 303 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -38912000 (11111111 11111111 11111111 11111111 11111101 10101110 01000000 00000000)
+
+State 304 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -38000 (11111111 11111111 11111111 11111111 11111111 11111111 01101011 10010000)
+
+State 305 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -38000 (11111111 11111111 11111111 11111111 11111111 11111111 01101011 10010000)
+
+State 309 file functions.h line 71 function shiftR thread 0
+----------------------------------------------------
+  *(z + (signed long int)i) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 311 file functions.h line 73 function shiftR thread 0
+----------------------------------------------------
+  *(z + 0) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 314 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 315 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 318 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 321 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 1024 (00000000 00000000 00000000 00000000 00000000 00000000 00000100 00000000)
+
+State 327 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = 1024 (00000000 00000000 00000000 00000000 00000000 00000000 00000100 00000000)
+An Overflow Occurred in the node b0
+
+State 333 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 62914560 (00000000 00000000 00000000 00000000 00000011 11000000 00000000 00000000)
+
+State 334 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 61440 (00000000 00000000 00000000 00000000 00000000 00000000 11110000 00000000)
+
+State 335 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 61440 (00000000 00000000 00000000 00000000 00000000 00000000 11110000 00000000)
+
+State 338 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 339 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 340 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 61440 (00000000 00000000 00000000 00000000 00000000 00000000 11110000 00000000)
+
+State 344 file functions.h line 71 function shiftR thread 0
+----------------------------------------------------
+  *(z + (signed long int)i) = 1024 (00000000 00000000 00000000 00000000 00000000 00000000 00000100 00000000)
+
+State 346 file functions.h line 73 function shiftR thread 0
+----------------------------------------------------
+  *(z + 0) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 349 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 350 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 353 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 356 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 362 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+An Overflow Occurred in the node b0
+
+State 368 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 369 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 370 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 373 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -52428800 (11111111 11111111 11111111 11111111 11111100 11100000 00000000 00000000)
+
+State 374 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -51200 (11111111 11111111 11111111 11111111 11111111 11111111 00111000 00000000)
+
+State 375 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -51200 (11111111 11111111 11111111 11111111 11111111 11111111 00111000 00000000)
+
+State 379 file functions.h line 71 function shiftR thread 0
+----------------------------------------------------
+  *(z + (signed long int)i) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 381 file functions.h line 73 function shiftR thread 0
+----------------------------------------------------
+  *(z + 0) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 384 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 385 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 388 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 391 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 1024 (00000000 00000000 00000000 00000000 00000000 00000000 00000100 00000000)
+
+State 397 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = 1024 (00000000 00000000 00000000 00000000 00000000 00000000 00000100 00000000)
+An Overflow Occurred in the node b0
+
+State 403 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 62914560 (00000000 00000000 00000000 00000000 00000011 11000000 00000000 00000000)
+
+State 404 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 61440 (00000000 00000000 00000000 00000000 00000000 00000000 11110000 00000000)
+
+State 405 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 61440 (00000000 00000000 00000000 00000000 00000000 00000000 11110000 00000000)
+
+State 408 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 409 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 410 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 61440 (00000000 00000000 00000000 00000000 00000000 00000000 11110000 00000000)
+
+State 414 file functions.h line 71 function shiftR thread 0
+----------------------------------------------------
+  *(z + (signed long int)i) = 1024 (00000000 00000000 00000000 00000000 00000000 00000000 00000100 00000000)
+
+State 416 file functions.h line 73 function shiftR thread 0
+----------------------------------------------------
+  *(z + 0) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 419 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 420 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 423 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 426 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -1024 (11111111 11111111 11111111 11111111 11111111 11111111 11111100 00000000)
+
+State 432 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = (-1024 << 10) / 1024
+An Overflow Occurred in the node b0
+
+State 438 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -62914560 (11111111 11111111 11111111 11111111 11111100 01000000 00000000 00000000)
+
+State 439 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -61440 (11111111 11111111 11111111 11111111 11111111 11111111 00010000 00000000)
+
+State 440 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -61440 (11111111 11111111 11111111 11111111 11111111 11111111 00010000 00000000)
+
+State 443 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -52428800 (11111111 11111111 11111111 11111111 11111100 11100000 00000000 00000000)
+
+State 444 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -51200 (11111111 11111111 11111111 11111111 11111111 11111111 00111000 00000000)
+
+State 445 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -112640 (11111111 11111111 11111111 11111111 11111111 11111110 01001000 00000000)
+
+State 449 file functions.h line 71 function shiftR thread 0
+----------------------------------------------------
+  *(z + (signed long int)i) = -1024 (11111111 11111111 11111111 11111111 11111111 11111111 11111100 00000000)
+
+State 451 file functions.h line 73 function shiftR thread 0
+----------------------------------------------------
+  *(z + 0) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 454 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 455 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 458 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 461 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -256 (11111111 11111111 11111111 11111111 11111111 11111111 11111111 00000000)
+
+State 467 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = (-256 << 10) / 1024
+An Overflow Occurred in the node b0
+
+State 473 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -15728640 (11111111 11111111 11111111 11111111 11111111 00010000 00000000 00000000)
+
+State 474 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -15360 (11111111 11111111 11111111 11111111 11111111 11111111 11000100 00000000)
+
+State 475 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -15360 (11111111 11111111 11111111 11111111 11111111 11111111 11000100 00000000)
+
+State 478 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 52428800 (00000000 00000000 00000000 00000000 00000011 00100000 00000000 00000000)
+
+State 479 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 51200 (00000000 00000000 00000000 00000000 00000000 00000000 11001000 00000000)
+
+State 480 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 35840 (00000000 00000000 00000000 00000000 00000000 00000000 10001100 00000000)
+
+State 484 file functions.h line 71 function shiftR thread 0
+----------------------------------------------------
+  *(z + (signed long int)i) = -256 (11111111 11111111 11111111 11111111 11111111 11111111 11111111 00000000)
+
+State 486 file functions.h line 73 function shiftR thread 0
+----------------------------------------------------
+  *(z + 0) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 489 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 490 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 493 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 496 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -1024 (11111111 11111111 11111111 11111111 11111111 11111111 11111100 00000000)
+
+State 502 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = (-1024 << 10) / 1024
+An Overflow Occurred in the node b0
+
+State 508 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -62914560 (11111111 11111111 11111111 11111111 11111100 01000000 00000000 00000000)
+
+State 509 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -61440 (11111111 11111111 11111111 11111111 11111111 11111111 00010000 00000000)
+
+State 510 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -61440 (11111111 11111111 11111111 11111111 11111111 11111111 00010000 00000000)
+
+State 513 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 13107200 (00000000 00000000 00000000 00000000 00000000 11001000 00000000 00000000)
+
+State 514 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 12800 (00000000 00000000 00000000 00000000 00000000 00000000 00110010 00000000)
+
+State 515 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -48640 (11111111 11111111 11111111 11111111 11111111 11111111 01000010 00000000)
+
+State 519 file functions.h line 71 function shiftR thread 0
+----------------------------------------------------
+  *(z + (signed long int)i) = -1024 (11111111 11111111 11111111 11111111 11111111 11111111 11111100 00000000)
+
+State 521 file functions.h line 73 function shiftR thread 0
+----------------------------------------------------
+  *(z + 0) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 524 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 525 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 528 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 531 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 537 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+An Overflow Occurred in the node b0
+
+State 543 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 544 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 545 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 548 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 52428800 (00000000 00000000 00000000 00000000 00000011 00100000 00000000 00000000)
+
+State 549 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 51200 (00000000 00000000 00000000 00000000 00000000 00000000 11001000 00000000)
+
+State 550 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 51200 (00000000 00000000 00000000 00000000 00000000 00000000 11001000 00000000)
+
+State 554 file functions.h line 71 function shiftR thread 0
+----------------------------------------------------
+  *(z + (signed long int)i) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 556 file functions.h line 73 function shiftR thread 0
+----------------------------------------------------
+  *(z + 0) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 559 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 560 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 563 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 566 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 572 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+An Overflow Occurred in the node b0
+
+State 578 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 579 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 580 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 583 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 584 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 585 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 589 file functions.h line 71 function shiftR thread 0
+----------------------------------------------------
+  *(z + (signed long int)i) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 591 file functions.h line 73 function shiftR thread 0
+----------------------------------------------------
+  *(z + 0) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 594 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 595 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 598 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 601 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 607 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+An Overflow Occurred in the node b0
+
+State 613 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 614 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 615 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 618 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 619 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 620 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+An Overflow Occurred in system's output
+An Overflow Occurred in system's output
+An Overflow Occurred in system's output
+
+State 629 file compatibility.h line 36 function __DSVERIFIER_assert thread 0
+----------------------------------------------------
+Violated property:
+  file compatibility.h line 36 function __DSVERIFIER_assert
+  assertion expression
+  expression
+
+VERIFICATION FAILED

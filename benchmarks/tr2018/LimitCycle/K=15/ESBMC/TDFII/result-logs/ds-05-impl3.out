@@ -1,0 +1,1455 @@
+ESBMC version 6.6.0 64-bit x86_64 linux
+file ds-05-impl3.c: Parsing
+Converting
+Generating GOTO Program
+GOTO program creation time: 1.174s
+GOTO program processing time: 0.028s
+Starting Bounded Model Checking
+Unwinding loop 386 iteration 1 file dsverifier.h line 422 function call_verification_task
+Unwinding loop 386 iteration 2 file dsverifier.h line 422 function call_verification_task
+Unwinding loop 386 iteration 3 file dsverifier.h line 422 function call_verification_task
+Unwinding loop 387 iteration 1 file dsverifier.h line 448 function call_verification_task
+Unwinding loop 387 iteration 2 file dsverifier.h line 448 function call_verification_task
+Unwinding loop 387 iteration 3 file dsverifier.h line 448 function call_verification_task
+Unwinding loop 4 iteration 1 file fixed-point.h line 260 function fxp_double_to_fxp_array
+Unwinding loop 4 iteration 2 file fixed-point.h line 260 function fxp_double_to_fxp_array
+Unwinding loop 4 iteration 3 file fixed-point.h line 260 function fxp_double_to_fxp_array
+Unwinding loop 4 iteration 1 file fixed-point.h line 260 function fxp_double_to_fxp_array
+Unwinding loop 4 iteration 2 file fixed-point.h line 260 function fxp_double_to_fxp_array
+Unwinding loop 4 iteration 3 file fixed-point.h line 260 function fxp_double_to_fxp_array
+Unwinding loop 223 iteration 1 file verify_limit_cycle.h line 178 function verify_limit_cycle
+Unwinding loop 223 iteration 2 file verify_limit_cycle.h line 178 function verify_limit_cycle
+Unwinding loop 223 iteration 3 file verify_limit_cycle.h line 178 function verify_limit_cycle
+Unwinding loop 223 iteration 4 file verify_limit_cycle.h line 178 function verify_limit_cycle
+Unwinding loop 223 iteration 5 file verify_limit_cycle.h line 178 function verify_limit_cycle
+Unwinding loop 223 iteration 6 file verify_limit_cycle.h line 178 function verify_limit_cycle
+Unwinding loop 223 iteration 7 file verify_limit_cycle.h line 178 function verify_limit_cycle
+Unwinding loop 223 iteration 8 file verify_limit_cycle.h line 178 function verify_limit_cycle
+Unwinding loop 223 iteration 9 file verify_limit_cycle.h line 178 function verify_limit_cycle
+Unwinding loop 223 iteration 10 file verify_limit_cycle.h line 178 function verify_limit_cycle
+Unwinding loop 223 iteration 11 file verify_limit_cycle.h line 178 function verify_limit_cycle
+Unwinding loop 223 iteration 12 file verify_limit_cycle.h line 178 function verify_limit_cycle
+Unwinding loop 223 iteration 13 file verify_limit_cycle.h line 178 function verify_limit_cycle
+Unwinding loop 223 iteration 14 file verify_limit_cycle.h line 178 function verify_limit_cycle
+Unwinding loop 223 iteration 15 file verify_limit_cycle.h line 178 function verify_limit_cycle
+Unwinding loop 224 iteration 1 file verify_limit_cycle.h line 182 function verify_limit_cycle
+Unwinding loop 224 iteration 2 file verify_limit_cycle.h line 182 function verify_limit_cycle
+Unwinding loop 224 iteration 3 file verify_limit_cycle.h line 182 function verify_limit_cycle
+Unwinding loop 225 iteration 1 file verify_limit_cycle.h line 206 function verify_limit_cycle
+Unwinding loop 225 iteration 2 file verify_limit_cycle.h line 206 function verify_limit_cycle
+Unwinding loop 225 iteration 3 file verify_limit_cycle.h line 206 function verify_limit_cycle
+Unwinding loop 132 iteration 1 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 132 iteration 2 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 226 iteration 1 file verify_limit_cycle.h line 217 function verify_limit_cycle
+Unwinding loop 132 iteration 1 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 132 iteration 2 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 226 iteration 2 file verify_limit_cycle.h line 217 function verify_limit_cycle
+Unwinding loop 132 iteration 1 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 132 iteration 2 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 226 iteration 3 file verify_limit_cycle.h line 217 function verify_limit_cycle
+Unwinding loop 132 iteration 1 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 132 iteration 2 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 226 iteration 4 file verify_limit_cycle.h line 217 function verify_limit_cycle
+Unwinding loop 132 iteration 1 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 132 iteration 2 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 226 iteration 5 file verify_limit_cycle.h line 217 function verify_limit_cycle
+Unwinding loop 132 iteration 1 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 132 iteration 2 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 226 iteration 6 file verify_limit_cycle.h line 217 function verify_limit_cycle
+Unwinding loop 132 iteration 1 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 132 iteration 2 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 226 iteration 7 file verify_limit_cycle.h line 217 function verify_limit_cycle
+Unwinding loop 132 iteration 1 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 132 iteration 2 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 226 iteration 8 file verify_limit_cycle.h line 217 function verify_limit_cycle
+Unwinding loop 132 iteration 1 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 132 iteration 2 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 226 iteration 9 file verify_limit_cycle.h line 217 function verify_limit_cycle
+Unwinding loop 132 iteration 1 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 132 iteration 2 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 226 iteration 10 file verify_limit_cycle.h line 217 function verify_limit_cycle
+Unwinding loop 132 iteration 1 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 132 iteration 2 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 226 iteration 11 file verify_limit_cycle.h line 217 function verify_limit_cycle
+Unwinding loop 132 iteration 1 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 132 iteration 2 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 226 iteration 12 file verify_limit_cycle.h line 217 function verify_limit_cycle
+Unwinding loop 132 iteration 1 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 132 iteration 2 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 226 iteration 13 file verify_limit_cycle.h line 217 function verify_limit_cycle
+Unwinding loop 132 iteration 1 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 132 iteration 2 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 226 iteration 14 file verify_limit_cycle.h line 217 function verify_limit_cycle
+Unwinding loop 132 iteration 1 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 132 iteration 2 file realizations.h line 78 function fxp_transposed_direct_form_2
+Unwinding loop 226 iteration 15 file verify_limit_cycle.h line 217 function verify_limit_cycle
+Unwinding loop 105 iteration 1 file functions.h line 212 function fxp_check_persistent_limit_cycle
+Unwinding loop 105 iteration 2 file functions.h line 212 function fxp_check_persistent_limit_cycle
+Unwinding loop 105 iteration 3 file functions.h line 212 function fxp_check_persistent_limit_cycle
+Unwinding loop 105 iteration 4 file functions.h line 212 function fxp_check_persistent_limit_cycle
+Unwinding loop 105 iteration 5 file functions.h line 212 function fxp_check_persistent_limit_cycle
+Unwinding loop 105 iteration 6 file functions.h line 212 function fxp_check_persistent_limit_cycle
+Unwinding loop 105 iteration 7 file functions.h line 212 function fxp_check_persistent_limit_cycle
+Unwinding loop 105 iteration 8 file functions.h line 212 function fxp_check_persistent_limit_cycle
+Unwinding loop 105 iteration 9 file functions.h line 212 function fxp_check_persistent_limit_cycle
+Unwinding loop 105 iteration 10 file functions.h line 212 function fxp_check_persistent_limit_cycle
+Unwinding loop 105 iteration 11 file functions.h line 212 function fxp_check_persistent_limit_cycle
+Unwinding loop 105 iteration 12 file functions.h line 212 function fxp_check_persistent_limit_cycle
+Unwinding loop 105 iteration 13 file functions.h line 212 function fxp_check_persistent_limit_cycle
+Unwinding loop 105 iteration 14 file functions.h line 212 function fxp_check_persistent_limit_cycle
+Unwinding loop 105 iteration 15 file functions.h line 212 function fxp_check_persistent_limit_cycle
+Unwinding loop 106 iteration 1 file functions.h line 228 function fxp_check_persistent_limit_cycle
+Unwinding loop 106 iteration 2 file functions.h line 228 function fxp_check_persistent_limit_cycle
+Unwinding loop 106 iteration 3 file functions.h line 228 function fxp_check_persistent_limit_cycle
+Unwinding loop 106 iteration 4 file functions.h line 228 function fxp_check_persistent_limit_cycle
+Unwinding loop 106 iteration 5 file functions.h line 228 function fxp_check_persistent_limit_cycle
+Unwinding loop 106 iteration 6 file functions.h line 228 function fxp_check_persistent_limit_cycle
+Unwinding loop 106 iteration 7 file functions.h line 228 function fxp_check_persistent_limit_cycle
+Unwinding loop 106 iteration 8 file functions.h line 228 function fxp_check_persistent_limit_cycle
+Unwinding loop 106 iteration 9 file functions.h line 228 function fxp_check_persistent_limit_cycle
+Unwinding loop 106 iteration 10 file functions.h line 228 function fxp_check_persistent_limit_cycle
+Unwinding loop 106 iteration 11 file functions.h line 228 function fxp_check_persistent_limit_cycle
+Unwinding loop 106 iteration 12 file functions.h line 228 function fxp_check_persistent_limit_cycle
+Unwinding loop 106 iteration 13 file functions.h line 228 function fxp_check_persistent_limit_cycle
+Unwinding loop 106 iteration 14 file functions.h line 228 function fxp_check_persistent_limit_cycle
+Unwinding loop 106 iteration 15 file functions.h line 228 function fxp_check_persistent_limit_cycle
+Unwinding loop 107 iteration 1 file functions.h line 239 function fxp_check_persistent_limit_cycle
+Unwinding loop 107 iteration 2 file functions.h line 239 function fxp_check_persistent_limit_cycle
+Unwinding loop 107 iteration 3 file functions.h line 239 function fxp_check_persistent_limit_cycle
+Unwinding loop 107 iteration 4 file functions.h line 239 function fxp_check_persistent_limit_cycle
+Unwinding loop 107 iteration 5 file functions.h line 239 function fxp_check_persistent_limit_cycle
+Unwinding loop 107 iteration 6 file functions.h line 239 function fxp_check_persistent_limit_cycle
+Unwinding loop 107 iteration 7 file functions.h line 239 function fxp_check_persistent_limit_cycle
+Unwinding loop 107 iteration 8 file functions.h line 239 function fxp_check_persistent_limit_cycle
+Unwinding loop 107 iteration 9 file functions.h line 239 function fxp_check_persistent_limit_cycle
+Unwinding loop 107 iteration 10 file functions.h line 239 function fxp_check_persistent_limit_cycle
+Unwinding loop 107 iteration 11 file functions.h line 239 function fxp_check_persistent_limit_cycle
+Unwinding loop 107 iteration 12 file functions.h line 239 function fxp_check_persistent_limit_cycle
+Unwinding loop 107 iteration 13 file functions.h line 239 function fxp_check_persistent_limit_cycle
+Unwinding loop 107 iteration 14 file functions.h line 239 function fxp_check_persistent_limit_cycle
+Unwinding loop 107 iteration 15 file functions.h line 239 function fxp_check_persistent_limit_cycle
+Symex completed in: 0.422s (5221 assignments)
+Slicing time: 0.018s (removed 1665 assignments)
+Generated 1250 VCC(s), 460 remaining after simplification (3556 assignments)
+Encoding remaining VCC(s) using bit-vector/floating-point arithmetic
+Encoding to solver time: 0.124s
+Solving with solver Boolector 3.2.0
+Encoding to solver time: 0.124s
+Runtime decision procedure: 10.791s
+Building error trace
+
+Counterexample:
+X_SIZE must be at least 2 * ds.a_size
+
+State 11 file fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp = 8.000000 (01000000 00100000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 12 file fixed-point.h line 233 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 13 file fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue = 0.000000 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 23 file fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp = 0.000000 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 24 file fixed-point.h line 233 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 25 file fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue = 0.000000 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 35 file fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp = 0.000000 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 36 file fixed-point.h line 233 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 37 file fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue = 8.000000 (01000000 00100000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 47 file fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp = 16016.000000 (01000000 11001111 01001000 00000000 00000000 00000000 00000000 00000000)
+
+State 48 file fixed-point.h line 233 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp = 16016 (00000000 00000000 00000000 00000000 00000000 00000000 00111110 10010000)
+
+State 49 file fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue = 0.000000 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 59 file fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp = 0.000000 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 60 file fixed-point.h line 233 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 61 file fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue = 32000.000000 (01000000 11011111 01000000 00000000 00000000 00000000 00000000 00000000)
+
+State 71 file fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp = 15984.000000 (01000000 11001111 00111000 00000000 00000000 00000000 00000000 00000000)
+
+State 72 file fixed-point.h line 233 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp = 15984 (00000000 00000000 00000000 00000000 00000000 00000000 00111110 01110000)
+
+State 73 file fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue = 0.000000 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 74 file verify_limit_cycle.h line 176 function verify_limit_cycle thread 0
+----------------------------------------------------
+  nondet_constant_input = -3 (11111111 11111111 11111111 11111101)
+
+State 76 file verify_limit_cycle.h line 179 function verify_limit_cycle thread 0
+----------------------------------------------------
+  x[0] = -3 (11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111101)
+
+State 77 file verify_limit_cycle.h line 180 function verify_limit_cycle thread 0
+----------------------------------------------------
+  y[0] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 78 file verify_limit_cycle.h line 179 function verify_limit_cycle thread 0
+----------------------------------------------------
+  x[1] = -3 (11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111101)
+
+State 79 file verify_limit_cycle.h line 180 function verify_limit_cycle thread 0
+----------------------------------------------------
+  y[1] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 80 file verify_limit_cycle.h line 179 function verify_limit_cycle thread 0
+----------------------------------------------------
+  x[2] = -3 (11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111101)
+
+State 81 file verify_limit_cycle.h line 180 function verify_limit_cycle thread 0
+----------------------------------------------------
+  y[2] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 82 file verify_limit_cycle.h line 179 function verify_limit_cycle thread 0
+----------------------------------------------------
+  x[3] = -3 (11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111101)
+
+State 83 file verify_limit_cycle.h line 180 function verify_limit_cycle thread 0
+----------------------------------------------------
+  y[3] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 84 file verify_limit_cycle.h line 179 function verify_limit_cycle thread 0
+----------------------------------------------------
+  x[4] = -3 (11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111101)
+
+State 85 file verify_limit_cycle.h line 180 function verify_limit_cycle thread 0
+----------------------------------------------------
+  y[4] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 86 file verify_limit_cycle.h line 179 function verify_limit_cycle thread 0
+----------------------------------------------------
+  x[5] = -3 (11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111101)
+
+State 87 file verify_limit_cycle.h line 180 function verify_limit_cycle thread 0
+----------------------------------------------------
+  y[5] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 88 file verify_limit_cycle.h line 179 function verify_limit_cycle thread 0
+----------------------------------------------------
+  x[6] = -3 (11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111101)
+
+State 89 file verify_limit_cycle.h line 180 function verify_limit_cycle thread 0
+----------------------------------------------------
+  y[6] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 90 file verify_limit_cycle.h line 179 function verify_limit_cycle thread 0
+----------------------------------------------------
+  x[7] = -3 (11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111101)
+
+State 91 file verify_limit_cycle.h line 180 function verify_limit_cycle thread 0
+----------------------------------------------------
+  y[7] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 92 file verify_limit_cycle.h line 179 function verify_limit_cycle thread 0
+----------------------------------------------------
+  x[8] = -3 (11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111101)
+
+State 93 file verify_limit_cycle.h line 180 function verify_limit_cycle thread 0
+----------------------------------------------------
+  y[8] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 94 file verify_limit_cycle.h line 179 function verify_limit_cycle thread 0
+----------------------------------------------------
+  x[9] = -3 (11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111101)
+
+State 95 file verify_limit_cycle.h line 180 function verify_limit_cycle thread 0
+----------------------------------------------------
+  y[9] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 96 file verify_limit_cycle.h line 179 function verify_limit_cycle thread 0
+----------------------------------------------------
+  x[10] = -3 (11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111101)
+
+State 97 file verify_limit_cycle.h line 180 function verify_limit_cycle thread 0
+----------------------------------------------------
+  y[10] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 98 file verify_limit_cycle.h line 179 function verify_limit_cycle thread 0
+----------------------------------------------------
+  x[11] = -3 (11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111101)
+
+State 99 file verify_limit_cycle.h line 180 function verify_limit_cycle thread 0
+----------------------------------------------------
+  y[11] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 100 file verify_limit_cycle.h line 179 function verify_limit_cycle thread 0
+----------------------------------------------------
+  x[12] = -3 (11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111101)
+
+State 101 file verify_limit_cycle.h line 180 function verify_limit_cycle thread 0
+----------------------------------------------------
+  y[12] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 102 file verify_limit_cycle.h line 179 function verify_limit_cycle thread 0
+----------------------------------------------------
+  x[13] = -3 (11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111101)
+
+State 103 file verify_limit_cycle.h line 180 function verify_limit_cycle thread 0
+----------------------------------------------------
+  y[13] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 104 file verify_limit_cycle.h line 179 function verify_limit_cycle thread 0
+----------------------------------------------------
+  x[14] = -3 (11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111101)
+
+State 105 file verify_limit_cycle.h line 180 function verify_limit_cycle thread 0
+----------------------------------------------------
+  y[14] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 106 file verify_limit_cycle.h line 207 function verify_limit_cycle thread 0
+----------------------------------------------------
+  waux[0] = 2 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000010)
+
+State 108 file verify_limit_cycle.h line 207 function verify_limit_cycle thread 0
+----------------------------------------------------
+  waux[1] = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 110 file verify_limit_cycle.h line 207 function verify_limit_cycle thread 0
+----------------------------------------------------
+  waux[2] = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 113 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48048 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01010000)
+
+State 114 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6006 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001010)
+
+State 116 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -6004 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001100)
+
+State 120 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = (-6004 << 3) / 8
+
+State 123 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 125 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 126 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 129 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 131 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 96000 (00000000 00000000 00000000 00000000 00000000 00000001 01110111 00000000)
+
+State 132 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 12000 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11100000)
+
+State 135 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 12008 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11101000)
+
+State 138 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 140 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 48032 (00000000 00000000 00000000 00000000 00000000 00000000 10111011 10100000)
+
+State 141 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 6004 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110100)
+
+State 144 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = -6004 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001100)
+
+State 146 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -47952 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 10110000)
+
+State 147 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -5994 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10010110)
+
+State 150 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 153 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48048 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01010000)
+
+State 154 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6006 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001010)
+
+State 156 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 160 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 163 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 165 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 166 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 169 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 171 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 96000 (00000000 00000000 00000000 00000000 00000000 00000001 01110111 00000000)
+
+State 172 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 12000 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11100000)
+
+State 175 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 2 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000010)
+
+State 178 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 180 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48016 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01110000)
+
+State 181 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6002 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001110)
+
+State 184 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 186 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -47952 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 10110000)
+
+State 187 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -5994 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10010110)
+
+State 190 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 193 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48048 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01010000)
+
+State 194 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6006 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001010)
+
+State 196 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -6004 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001100)
+
+State 200 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = (-6004 << 3) / 8
+
+State 203 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 205 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 206 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 209 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 211 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 96000 (00000000 00000000 00000000 00000000 00000000 00000001 01110111 00000000)
+
+State 212 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 12000 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11100000)
+
+State 215 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 12008 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11101000)
+
+State 218 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 220 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 48032 (00000000 00000000 00000000 00000000 00000000 00000000 10111011 10100000)
+
+State 221 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 6004 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110100)
+
+State 224 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = -6004 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001100)
+
+State 226 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -47952 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 10110000)
+
+State 227 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -5994 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10010110)
+
+State 230 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 233 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48048 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01010000)
+
+State 234 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6006 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001010)
+
+State 236 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 240 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 243 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 245 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 246 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 249 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 251 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 96000 (00000000 00000000 00000000 00000000 00000000 00000001 01110111 00000000)
+
+State 252 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 12000 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11100000)
+
+State 255 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 2 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000010)
+
+State 258 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 260 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48016 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01110000)
+
+State 261 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6002 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001110)
+
+State 264 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 266 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -47952 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 10110000)
+
+State 267 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -5994 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10010110)
+
+State 270 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 273 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48048 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01010000)
+
+State 274 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6006 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001010)
+
+State 276 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -6004 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001100)
+
+State 280 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = (-6004 << 3) / 8
+
+State 283 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 285 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 286 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 289 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 291 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 96000 (00000000 00000000 00000000 00000000 00000000 00000001 01110111 00000000)
+
+State 292 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 12000 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11100000)
+
+State 295 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 12008 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11101000)
+
+State 298 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 300 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 48032 (00000000 00000000 00000000 00000000 00000000 00000000 10111011 10100000)
+
+State 301 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 6004 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110100)
+
+State 304 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = -6004 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001100)
+
+State 306 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -47952 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 10110000)
+
+State 307 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -5994 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10010110)
+
+State 310 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 313 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48048 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01010000)
+
+State 314 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6006 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001010)
+
+State 316 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 320 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 323 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 325 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 326 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 329 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 331 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 96000 (00000000 00000000 00000000 00000000 00000000 00000001 01110111 00000000)
+
+State 332 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 12000 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11100000)
+
+State 335 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 2 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000010)
+
+State 338 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 340 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48016 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01110000)
+
+State 341 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6002 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001110)
+
+State 344 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 346 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -47952 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 10110000)
+
+State 347 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -5994 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10010110)
+
+State 350 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 353 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48048 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01010000)
+
+State 354 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6006 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001010)
+
+State 356 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -6004 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001100)
+
+State 360 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = (-6004 << 3) / 8
+
+State 363 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 365 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 366 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 369 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 371 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 96000 (00000000 00000000 00000000 00000000 00000000 00000001 01110111 00000000)
+
+State 372 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 12000 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11100000)
+
+State 375 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 12008 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11101000)
+
+State 378 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 380 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 48032 (00000000 00000000 00000000 00000000 00000000 00000000 10111011 10100000)
+
+State 381 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 6004 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110100)
+
+State 384 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = -6004 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001100)
+
+State 386 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -47952 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 10110000)
+
+State 387 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -5994 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10010110)
+
+State 390 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 393 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48048 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01010000)
+
+State 394 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6006 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001010)
+
+State 396 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 400 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 403 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 405 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 406 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 409 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 411 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 96000 (00000000 00000000 00000000 00000000 00000000 00000001 01110111 00000000)
+
+State 412 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 12000 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11100000)
+
+State 415 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 2 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000010)
+
+State 418 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 420 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48016 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01110000)
+
+State 421 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6002 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001110)
+
+State 424 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 426 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -47952 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 10110000)
+
+State 427 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -5994 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10010110)
+
+State 430 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 433 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48048 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01010000)
+
+State 434 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6006 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001010)
+
+State 436 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -6004 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001100)
+
+State 440 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = (-6004 << 3) / 8
+
+State 443 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 445 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 446 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 449 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 451 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 96000 (00000000 00000000 00000000 00000000 00000000 00000001 01110111 00000000)
+
+State 452 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 12000 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11100000)
+
+State 455 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 12008 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11101000)
+
+State 458 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 460 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 48032 (00000000 00000000 00000000 00000000 00000000 00000000 10111011 10100000)
+
+State 461 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 6004 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110100)
+
+State 464 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = -6004 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001100)
+
+State 466 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -47952 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 10110000)
+
+State 467 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -5994 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10010110)
+
+State 470 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 473 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48048 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01010000)
+
+State 474 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6006 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001010)
+
+State 476 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 480 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 483 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 485 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 486 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 489 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 491 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 96000 (00000000 00000000 00000000 00000000 00000000 00000001 01110111 00000000)
+
+State 492 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 12000 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11100000)
+
+State 495 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 2 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000010)
+
+State 498 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 500 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48016 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01110000)
+
+State 501 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6002 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001110)
+
+State 504 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 506 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -47952 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 10110000)
+
+State 507 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -5994 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10010110)
+
+State 510 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 513 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48048 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01010000)
+
+State 514 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6006 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001010)
+
+State 516 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -6004 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001100)
+
+State 520 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = (-6004 << 3) / 8
+
+State 523 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 525 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 526 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 529 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 531 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 96000 (00000000 00000000 00000000 00000000 00000000 00000001 01110111 00000000)
+
+State 532 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 12000 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11100000)
+
+State 535 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 12008 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11101000)
+
+State 538 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 540 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 48032 (00000000 00000000 00000000 00000000 00000000 00000000 10111011 10100000)
+
+State 541 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 6004 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110100)
+
+State 544 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = -6004 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001100)
+
+State 546 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -47952 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 10110000)
+
+State 547 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -5994 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10010110)
+
+State 550 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 553 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48048 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01010000)
+
+State 554 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6006 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001010)
+
+State 556 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 560 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 563 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 565 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 566 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 569 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 571 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 96000 (00000000 00000000 00000000 00000000 00000000 00000001 01110111 00000000)
+
+State 572 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 12000 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11100000)
+
+State 575 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 2 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000010)
+
+State 578 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 580 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48016 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01110000)
+
+State 581 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6002 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001110)
+
+State 584 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 586 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -47952 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 10110000)
+
+State 587 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -5994 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10010110)
+
+State 590 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 593 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48048 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01010000)
+
+State 594 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6006 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001010)
+
+State 596 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -6004 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001100)
+
+State 600 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = (-6004 << 3) / 8
+
+State 603 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 605 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 606 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 609 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 611 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 96000 (00000000 00000000 00000000 00000000 00000000 00000001 01110111 00000000)
+
+State 612 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 12000 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11100000)
+
+State 615 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 12008 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11101000)
+
+State 618 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 620 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 48032 (00000000 00000000 00000000 00000000 00000000 00000000 10111011 10100000)
+
+State 621 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 6004 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110100)
+
+State 624 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = -6004 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001100)
+
+State 626 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -47952 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 10110000)
+
+State 627 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -5994 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10010110)
+
+State 630 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 633 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48048 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01010000)
+
+State 634 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6006 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001010)
+
+State 636 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 640 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 643 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 645 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 646 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 649 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = -11998 (11111111 11111111 11111111 11111111 11111111 11111111 11010001 00100010)
+
+State 651 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = 96000 (00000000 00000000 00000000 00000000 00000000 00000001 01110111 00000000)
+
+State 652 file fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = 12000 (00000000 00000000 00000000 00000000 00000000 00000000 00101110 11100000)
+
+State 655 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 2 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000010)
+
+State 658 file realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  *(w + (signed long int)j) = 0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 660 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48016 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01110000)
+
+State 661 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6002 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001110)
+
+State 664 file fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 666 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -47952 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 10110000)
+
+State 667 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -5994 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10010110)
+
+State 670 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = 8 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 673 file fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult = -48048 (11111111 11111111 11111111 11111111 11111111 11111111 01000100 01010000)
+
+State 674 file fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec = -6006 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001010)
+
+State 676 file fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd = -6004 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001100)
+
+State 680 file fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv = (-6004 << 3) / 8
+
+State 699 file functions.h line 209 function fxp_check_persistent_limit_cycle thread 0
+----------------------------------------------------
+  reference = -6004 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001100)
+
+State 702 file functions.h line 214 function fxp_check_persistent_limit_cycle thread 0
+----------------------------------------------------
+  window_size = 1 (00000000 00000000 00000000 00000001)
+
+State 704 file functions.h line 221 function fxp_check_persistent_limit_cycle thread 0
+----------------------------------------------------
+  window_size = 2 (00000000 00000000 00000000 00000010)
+
+State 708 file functions.h line 231 function fxp_check_persistent_limit_cycle thread 0
+----------------------------------------------------
+  lco_elements[0] = -6004 (11111111 11111111 11111111 11111111 11111111 11111111 11101000 10001100)
+
+State 711 file functions.h line 231 function fxp_check_persistent_limit_cycle thread 0
+----------------------------------------------------
+  lco_elements[1] = 6002 (00000000 00000000 00000000 00000000 00000000 00000000 00010111 01110010)
+
+State 714 file functions.h line 240 function fxp_check_persistent_limit_cycle thread 0
+----------------------------------------------------
+  lco_idy = 2 (00000000 00000000 00000000 00000010)
+
+State 718 file functions.h line 240 function fxp_check_persistent_limit_cycle thread 0
+----------------------------------------------------
+  lco_idy = 1 (00000000 00000000 00000000 00000001)
+
+State 722 file functions.h line 240 function fxp_check_persistent_limit_cycle thread 0
+----------------------------------------------------
+  lco_idy = 2 (00000000 00000000 00000000 00000010)
+
+State 726 file functions.h line 240 function fxp_check_persistent_limit_cycle thread 0
+----------------------------------------------------
+  lco_idy = 1 (00000000 00000000 00000000 00000001)
+
+State 730 file functions.h line 240 function fxp_check_persistent_limit_cycle thread 0
+----------------------------------------------------
+  lco_idy = 2 (00000000 00000000 00000000 00000010)
+
+State 734 file functions.h line 240 function fxp_check_persistent_limit_cycle thread 0
+----------------------------------------------------
+  lco_idy = 1 (00000000 00000000 00000000 00000001)
+
+State 738 file functions.h line 240 function fxp_check_persistent_limit_cycle thread 0
+----------------------------------------------------
+  lco_idy = 2 (00000000 00000000 00000000 00000010)
+
+State 742 file functions.h line 240 function fxp_check_persistent_limit_cycle thread 0
+----------------------------------------------------
+  lco_idy = 1 (00000000 00000000 00000000 00000001)
+
+State 746 file functions.h line 240 function fxp_check_persistent_limit_cycle thread 0
+----------------------------------------------------
+  lco_idy = 2 (00000000 00000000 00000000 00000010)
+
+State 750 file functions.h line 240 function fxp_check_persistent_limit_cycle thread 0
+----------------------------------------------------
+  lco_idy = 1 (00000000 00000000 00000000 00000001)
+
+State 754 file functions.h line 240 function fxp_check_persistent_limit_cycle thread 0
+----------------------------------------------------
+  lco_idy = 2 (00000000 00000000 00000000 00000010)
+
+State 758 file functions.h line 240 function fxp_check_persistent_limit_cycle thread 0
+----------------------------------------------------
+  lco_idy = 1 (00000000 00000000 00000000 00000001)
+
+State 762 file functions.h line 240 function fxp_check_persistent_limit_cycle thread 0
+----------------------------------------------------
+  lco_idy = 2 (00000000 00000000 00000000 00000010)
+
+State 769 file compatibility.h line 36 function __DSVERIFIER_assert thread 0
+----------------------------------------------------
+Violated property:
+  file compatibility.h line 36 function __DSVERIFIER_assert
+  assertion expression
+  expression
+
+VERIFICATION FAILED
