@@ -1,0 +1,55 @@
+ESBMC version 6.6.0 64-bit x86_64 linux
+file /home/yashchopda/COMP30040_YashChopda/benchmarks/tr2018/Stability/K=15/ESBMC/DFII/ds-03-impl1.c: Parsing
+Converting
+Generating GOTO Program
+GOTO program creation time: 1.165s
+GOTO program processing time: 0.024s
+Starting Bounded Model Checking
+Unwinding loop 386 iteration 1 file dsverifier.h line 422 function call_verification_task
+Unwinding loop 386 iteration 2 file dsverifier.h line 422 function call_verification_task
+Unwinding loop 387 iteration 1 file dsverifier.h line 448 function call_verification_task
+Unwinding loop 387 iteration 2 file dsverifier.h line 448 function call_verification_task
+Unwinding loop 4 iteration 1 file fixed-point.h line 260 function fxp_double_to_fxp_array
+Unwinding loop 4 iteration 2 file fixed-point.h line 260 function fxp_double_to_fxp_array
+Unwinding loop 6 iteration 1 file fixed-point.h line 304 function fxp_to_double_array
+Unwinding loop 6 iteration 2 file fixed-point.h line 304 function fxp_to_double_array
+Unwinding loop 12 iteration 1 file util.h line 70 function check_stability
+Unwinding loop 12 iteration 2 file util.h line 70 function check_stability
+Unwinding loop 13 iteration 1 file util.h line 76 function check_stability
+Unwinding loop 13 iteration 2 file util.h line 76 function check_stability
+Unwinding loop 11 iteration 1 file util.h line 44 function internal_pow
+Unwinding loop 14 iteration 1 file util.h line 86 function check_stability
+Unwinding loop 14 iteration 2 file util.h line 86 function check_stability
+Unwinding loop 11 iteration 1 file util.h line 44 function internal_pow
+Unwinding loop 15 iteration 1 file util.h line 103 function check_stability
+Unwinding loop 15 iteration 2 file util.h line 103 function check_stability
+Unwinding loop 16 iteration 1 file util.h line 102 function check_stability
+Unwinding loop 15 iteration 1 file util.h line 103 function check_stability
+Unwinding loop 15 iteration 2 file util.h line 103 function check_stability
+Unwinding loop 16 iteration 2 file util.h line 102 function check_stability
+Unwinding loop 15 iteration 1 file util.h line 103 function check_stability
+Unwinding loop 15 iteration 2 file util.h line 103 function check_stability
+Unwinding loop 16 iteration 3 file util.h line 102 function check_stability
+Unwinding loop 18 iteration 1 file util.h line 108 function check_stability
+Unwinding loop 18 iteration 2 file util.h line 108 function check_stability
+Unwinding loop 19 iteration 1 file util.h line 107 function check_stability
+Unwinding loop 17 iteration 1 file util.h line 115 function check_stability
+Unwinding loop 17 iteration 2 file util.h line 115 function check_stability
+Unwinding loop 18 iteration 1 file util.h line 108 function check_stability
+Unwinding loop 19 iteration 2 file util.h line 107 function check_stability
+Unwinding loop 18 iteration 1 file util.h line 108 function check_stability
+Unwinding loop 19 iteration 3 file util.h line 107 function check_stability
+Unwinding loop 20 iteration 1 file util.h line 126 function check_stability
+Unwinding loop 20 iteration 2 file util.h line 126 function check_stability
+Unwinding loop 20 iteration 3 file util.h line 126 function check_stability
+Symex completed in: 0.036s (265 assignments)
+Slicing time: 0.001s (removed 167 assignments)
+Generated 136 VCC(s), 33 remaining after simplification (98 assignments)
+Encoding remaining VCC(s) using bit-vector/floating-point arithmetic
+Encoding to solver time: 0.071s
+Solving with solver Boolector 3.2.0
+Encoding to solver time: 0.071s
+Runtime decision procedure: 0.013s
+BMC program time: 0.121s
+
+VERIFICATION SUCCESSFUL
