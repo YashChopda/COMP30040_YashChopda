@@ -82,3 +82,8 @@ Generated 342 VCC(s), 204 remaining after simplification (824 assignments)
 Encoding remaining VCC(s) using bit-vector/floating-point arithmetic
 Encoding to solver time: 0.085s
 Solving with solver Boolector 3.2.0
+Encoding to solver time: 0.097s
+Runtime decision procedure: 34.681s
+BMC program time: 34.898s
+
+VERIFICATION SUCCESSFUL
