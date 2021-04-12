@@ -217,3 +217,5 @@ Running propositional reduction
 Post-processing
 Solving with MiniSAT 2.2.1 with simplifier
 2333109 variables, 9165204 clauses
+
+Timed out

@@ -1,0 +1,2382 @@
+CBMC version 5.10 (n/a) 64-bit x86_64 linux
+Parsing /home/yashchopda/COMP30040_YashChopda/benchmarks/tr2018/Overflow-WrapAround-Mode/K=5/Verifuzz/TDFII/ds-06-impl1.c
+Converting
+Type-checking ds-06-impl1
+Generating GOTO Program
+Adding CPROVER library (x86_64)
+Removal of function pointers and virtual functions
+file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 474 function call_verification_task: replacing function pointer by 12 possible targets
+file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 557 function call_closedloop_verification_task: replacing function pointer by 12 possible targets
+Generic Property Instrumentation
+Running with 8 object bits, 56 offset bits (default)
+Starting Bounded Model Checking
+Unwinding loop call_verification_task.2 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 422 function call_verification_task thread 0
+Unwinding loop call_verification_task.2 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 422 function call_verification_task thread 0
+Unwinding loop call_verification_task.3 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 448 function call_verification_task thread 0
+Unwinding loop call_verification_task.3 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 448 function call_verification_task thread 0
+Unwinding loop fxp_double_to_fxp_array.0 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 260 function fxp_double_to_fxp_array thread 0
+Unwinding loop fxp_double_to_fxp_array.0 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 260 function fxp_double_to_fxp_array thread 0
+Unwinding loop fxp_double_to_fxp_array.0 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 260 function fxp_double_to_fxp_array thread 0
+Unwinding loop fxp_double_to_fxp_array.0 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 260 function fxp_double_to_fxp_array thread 0
+Unwinding loop verify_overflow.0 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 81 function verify_overflow thread 0
+Unwinding loop verify_overflow.0 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 81 function verify_overflow thread 0
+Unwinding loop verify_overflow.0 iteration 3 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 81 function verify_overflow thread 0
+Unwinding loop verify_overflow.0 iteration 4 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 81 function verify_overflow thread 0
+Unwinding loop verify_overflow.0 iteration 5 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 81 function verify_overflow thread 0
+Unwinding loop verify_overflow.1 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 98 function verify_overflow thread 0
+Unwinding loop verify_overflow.1 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 98 function verify_overflow thread 0
+Unwinding loop verify_overflow.2 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 101 function verify_overflow thread 0
+Unwinding loop verify_overflow.2 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 101 function verify_overflow thread 0
+Unwinding loop verify_overflow.3 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 104 function verify_overflow thread 0
+Unwinding loop verify_overflow.3 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 104 function verify_overflow thread 0
+Unwinding loop fxp_transposed_direct_form_2.0 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 78 function fxp_transposed_direct_form_2 thread 0
+Unwinding loop verify_overflow.4 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 112 function verify_overflow thread 0
+Unwinding loop fxp_transposed_direct_form_2.0 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 78 function fxp_transposed_direct_form_2 thread 0
+Unwinding loop verify_overflow.4 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 112 function verify_overflow thread 0
+Unwinding loop fxp_transposed_direct_form_2.0 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 78 function fxp_transposed_direct_form_2 thread 0
+Unwinding loop verify_overflow.4 iteration 3 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 112 function verify_overflow thread 0
+Unwinding loop fxp_transposed_direct_form_2.0 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 78 function fxp_transposed_direct_form_2 thread 0
+Unwinding loop verify_overflow.4 iteration 4 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 112 function verify_overflow thread 0
+Unwinding loop fxp_transposed_direct_form_2.0 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 78 function fxp_transposed_direct_form_2 thread 0
+Unwinding loop verify_overflow.4 iteration 5 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 112 function verify_overflow thread 0
+Unwinding loop fxp_verify_overflow_array.0 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 171 function fxp_verify_overflow_array thread 0
+Unwinding loop fxp_verify_overflow_array.0 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 171 function fxp_verify_overflow_array thread 0
+Unwinding loop fxp_verify_overflow_array.0 iteration 3 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 171 function fxp_verify_overflow_array thread 0
+Unwinding loop fxp_verify_overflow_array.0 iteration 4 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 171 function fxp_verify_overflow_array thread 0
+Unwinding loop fxp_verify_overflow_array.0 iteration 5 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 171 function fxp_verify_overflow_array thread 0
+size of program expression: 1653 steps
+simple slicing removed 15 assignments
+Generated 5 VCC(s), 5 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with Glucose Syrup with simplifier
+39197 variables, 128365 clauses
+SAT checker: instance is SATISFIABLE
+Solving with Glucose Syrup with simplifier
+39197 variables, 69103 clauses
+SAT checker inconsistent: instance is UNSATISFIABLE
+Runtime decision procedure: 1.18083s
+
+** Results:
+[__DSVERIFIER_assert.assertion.1] assertion expression: FAILURE
+[__DSVERIFIER_assert_msg.assertion.1] assertion expression: SUCCESS
+[double_check_oscillations.assertion.1] assertion !(window_count == window_size): SUCCESS
+[snrVariance.assertion.1] assertion sv >= nv: SUCCESS
+[snrPower.assertion.1] assertion sv >= nv: SUCCESS
+[snrPoint.assertion.1] assertion power >= 1.0f: SUCCESS
+[iirIIOutTime.assertion.1] assertion (double)timer1*CYCLE <= (double)DEADLINE: SUCCESS
+[iirIItOutTime.assertion.1] assertion (double)timer1*CYCLE <= (double)DEADLINE: SUCCESS
+[iirIItOutTime_double.assertion.1] assertion (double)timer1*CYCLE <= (double)DEADLINE: SUCCESS
+[double_direct_form_1_MSP430.assertion.1] assertion (double) timer1 * hw.cycle <= ds.sample_time: SUCCESS
+[double_direct_form_2_MSP430.assertion.1] assertion (double) timer1 * hw.cycle <= ds.sample_time: SUCCESS
+[double_transposed_direct_form_2_MSP430.assertion.1] assertion (double) timer1 * hw.cycle <= ds.sample_time: SUCCESS
+[initialization.assertion.1] assertion 0: SUCCESS
+[verify_limit_cycle_state_space.assertion.1] assertion 0: SUCCESS
+[verify_limit_cycle_state_space.assertion.2] assertion 0: SUCCESS
+[verify_zero_input_limit_cycle.assertion.1] assertion X_SIZE_VALUE >= Set_xsize_at_least_two_times_Na: SUCCESS
+[verify_generic_timing.assertion.1] assertion spent_time <= ds.sample_time: SUCCESS
+[verify_stability.assertion.1] assertion check_stability(_a, ds.a_size): SUCCESS
+[verify_error_state_space.assertion.1] assertion __quant_error < error_limit && __quant_error > ((-1)*error_limit): SUCCESS
+[verify_error_state_space.assertion.2] assertion __quant_error < error_limit && __quant_error > ((-1)*error_limit): SUCCESS
+[verify_safety_state_space.assertion.1] assertion output_double <= error_limit: SUCCESS
+[verify_controllability.assertion.1] assertion determinant(controllabilityMatrix_double,nStates) != 0: SUCCESS
+[verify_controllability.assertion.2] assertion determinant(controllabilityMatrix_double,nStates) != 0: SUCCESS
+[verify_controllability_double.assertion.1] assertion determinant(mimo_controllabilityMatrix_double,nStates) != 0: SUCCESS
+[verify_controllability_double.assertion.2] assertion determinant(controllabilityMatrix,nStates) != 0: SUCCESS
+[verify_observability.assertion.1] assertion determinant(observabilityMatrix_double,nStates) != 0: SUCCESS
+[verify_observability.assertion.2] assertion determinant(observabilityMatrix_double,nStates) != 0: SUCCESS
+
+Trace for __DSVERIFIER_assert.assertion.1:
+
+State 45 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 38 function initialization thread 0
+----------------------------------------------------
+  _fxp_one=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 46 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 41 function initialization thread 0
+----------------------------------------------------
+  _fxp_half=2048l (00000000 00000000 00000000 00000000 00000000 00000000 00001000 00000000)
+
+State 47 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 42 function initialization thread 0
+----------------------------------------------------
+  _fxp_minus_one=-4096l (11111111 11111111 11111111 11111111 11111111 11111111 11110000 00000000)
+
+State 48 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 43 function initialization thread 0
+----------------------------------------------------
+  _fxp_min=-32768l (11111111 11111111 11111111 11111111 11111111 11111111 10000000 00000000)
+
+State 49 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 44 function initialization thread 0
+----------------------------------------------------
+  _fxp_max=32767l (00000000 00000000 00000000 00000000 00000000 00000000 01111111 11111111)
+
+State 50 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 45 function initialization thread 0
+----------------------------------------------------
+  _fxp_fmask=4095l (00000000 00000000 00000000 00000000 00000000 00000000 00001111 11111111)
+
+State 51 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 46 function initialization thread 0
+----------------------------------------------------
+  _fxp_imask=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 52 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 48 function initialization thread 0
+----------------------------------------------------
+  _dbl_min=-32768.0 (11000000 11100000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 53 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 49 function initialization thread 0
+----------------------------------------------------
+  _dbl_min=-8.0 (11000000 00100000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 54 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 50 function initialization thread 0
+----------------------------------------------------
+  _dbl_max=32767.0 (01000000 11011111 11111111 11000000 00000000 00000000 00000000 00000000)
+
+State 55 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 51 function initialization thread 0
+----------------------------------------------------
+  _dbl_max=7.999756 (01000000 00011111 11111111 11000000 00000000 00000000 00000000 00000000)
+
+State 57 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 55 function initialization thread 0
+----------------------------------------------------
+  impl.scale=1 (00000000 00000000 00000000 00000001)
+
+State 70 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 286 function validation thread 0
+----------------------------------------------------
+  X_SIZE_VALUE=5 (00000000 00000000 00000000 00000101)
+
+State 79 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 78 function main thread 0
+----------------------------------------------------
+  rounding_mode=1 (00000000 00000000 00000000 00000001)
+
+State 84 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 86 function main thread 0
+----------------------------------------------------
+  verification_task=&verify_overflow (00000010 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 85 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 359 function call_verification_task thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 86 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 359 function call_verification_task thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 87 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 361 function call_verification_task thread 0
+----------------------------------------------------
+  base_case_executed=FALSE (00000000)
+
+State 88 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 361 function call_verification_task thread 0
+----------------------------------------------------
+  base_case_executed=FALSE (00000000)
+
+State 90 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 421 function call_verification_task thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 91 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 421 function call_verification_task thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 92 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 422 function call_verification_task thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 95 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 422 function call_verification_task thread 0
+----------------------------------------------------
+  i=1 (00000000 00000000 00000000 00000001)
+
+State 99 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 422 function call_verification_task thread 0
+----------------------------------------------------
+  i=2 (00000000 00000000 00000000 00000010)
+
+State 102 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 448 function call_verification_task thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 105 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 448 function call_verification_task thread 0
+----------------------------------------------------
+  i=1 (00000000 00000000 00000000 00000001)
+
+State 109 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 448 function call_verification_task thread 0
+----------------------------------------------------
+  i=2 (00000000 00000000 00000000 00000010)
+
+State 128 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 29 function verify_overflow thread 0
+----------------------------------------------------
+  a_fxp={ 0l, 0l } ({ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 })
+
+State 131 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 30 function verify_overflow thread 0
+----------------------------------------------------
+  b_fxp={ 0l, 0l } ({ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 })
+
+State 134 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 32 function verify_overflow thread 0
+----------------------------------------------------
+  f=ds.a (00000011 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 135 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 32 function verify_overflow thread 0
+----------------------------------------------------
+  r=a_fxp!0@1 (00000100 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 136 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 32 function verify_overflow thread 0
+----------------------------------------------------
+  N=2 (00000000 00000000 00000000 00000010)
+
+State 137 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 259 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 138 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 260 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 142 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 261 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  value=1.0 (00111111 11110000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 143 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 223 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 144 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 145 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp=4096.0 (01000000 10110000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 148 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 233 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 149 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 150 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 155 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 261 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  a_fxp[0l]=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 156 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 260 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  i=1 (00000000 00000000 00000000 00000001)
+
+State 161 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 261 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  value=1.0 (00111111 11110000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 162 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 223 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 163 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 164 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp=4096.0 (01000000 10110000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 167 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 233 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 168 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 169 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 174 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 261 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  a_fxp[1l]=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 175 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 260 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  i=2 (00000000 00000000 00000000 00000010)
+
+State 181 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 34 function verify_overflow thread 0
+----------------------------------------------------
+  f=ds.b (00000011 00000000 00000000 00000000 00000000 00000000 00000011 00101000)
+
+State 182 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 34 function verify_overflow thread 0
+----------------------------------------------------
+  r=b_fxp!0@1 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 183 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 34 function verify_overflow thread 0
+----------------------------------------------------
+  N=2 (00000000 00000000 00000000 00000010)
+
+State 184 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 259 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 185 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 260 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 189 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 261 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  value=0.93 (00111111 11101101 11000010 10001111 01011100 00101000 11110101 11000011)
+
+State 190 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 223 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 191 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 192 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp=3809.28 (01000000 10101101 11000010 10001111 01011100 00101000 11110101 11000011)
+
+State 195 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 233 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp=3809l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11100001)
+
+State 196 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 197 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue=0.28 (00111111 11010001 11101011 10000101 00011110 10111000 01100000 00000000)
+
+State 202 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 261 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  b_fxp[0l]=3809l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11100001)
+
+State 203 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 260 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  i=1 (00000000 00000000 00000000 00000001)
+
+State 208 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 261 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  value=-0.87 (10111111 11101011 11010111 00001010 00111101 01110000 10100011 11010111)
+
+State 209 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 223 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 210 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 211 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp=-3563.52 (11000000 10101011 11010111 00001010 00111101 01110000 10100011 11010111)
+
+State 214 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 233 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp=-3563l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00010101)
+
+State 215 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 216 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue=-0.52 (10111111 11100000 10100011 11010111 00001010 00111101 01110000 00000000)
+
+State 218 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 236 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp=-3564.52 (11000000 10101011 11011001 00001010 00111101 01110000 10100011 11010111)
+
+State 219 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 237 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp=-3564l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00010100)
+
+State 223 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 261 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  b_fxp[1l]=-3564l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00010100)
+
+State 224 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 260 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  i=2 (00000000 00000000 00000000 00000010)
+
+State 228 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 73 function verify_overflow thread 0
+----------------------------------------------------
+  min_fxp=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 231 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 73 function verify_overflow thread 0
+----------------------------------------------------
+  value=-1.0 (10111111 11110000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 232 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 223 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 233 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 234 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp=-4096.0 (11000000 10110000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 237 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 233 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp=-4096l (11111111 11111111 11111111 11111111 11111111 11111111 11110000 00000000)
+
+State 238 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 239 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 244 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 73 function verify_overflow thread 0
+----------------------------------------------------
+  min_fxp=-4096l (11111111 11111111 11111111 11111111 11111111 11111111 11110000 00000000)
+
+State 245 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 74 function verify_overflow thread 0
+----------------------------------------------------
+  max_fxp=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 248 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 74 function verify_overflow thread 0
+----------------------------------------------------
+  value=1.0 (00111111 11110000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 249 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 223 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 250 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 251 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp=4096.0 (01000000 10110000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 254 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 233 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 255 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 256 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 261 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 74 function verify_overflow thread 0
+----------------------------------------------------
+  max_fxp=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 264 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 76 function verify_overflow thread 0
+----------------------------------------------------
+  y={ 0l, 0l, 0l, 0l, 0l } ({ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 })
+
+State 267 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 77 function verify_overflow thread 0
+----------------------------------------------------
+  x={ 0l, 0l, 0l, 0l, 0l } ({ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 })
+
+State 268 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 80 function verify_overflow thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 269 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 81 function verify_overflow thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 271 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[0l]=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 274 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[0l]=4089l (00000000 00000000 00000000 00000000 00000000 00000000 00001111 11111001)
+
+State 281 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 84 function verify_overflow thread 0
+----------------------------------------------------
+  expression=TRUE (00000001)
+
+State 284 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 81 function verify_overflow thread 0
+----------------------------------------------------
+  i=1 (00000000 00000000 00000000 00000001)
+
+State 287 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[1l]=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 290 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[1l]=-3906l (11111111 11111111 11111111 11111111 11111111 11111111 11110000 10111110)
+
+State 297 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 84 function verify_overflow thread 0
+----------------------------------------------------
+  expression=TRUE (00000001)
+
+State 300 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 81 function verify_overflow thread 0
+----------------------------------------------------
+  i=2 (00000000 00000000 00000000 00000010)
+
+State 303 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[2l]=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 306 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[2l]=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 313 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 84 function verify_overflow thread 0
+----------------------------------------------------
+  expression=TRUE (00000001)
+
+State 316 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 81 function verify_overflow thread 0
+----------------------------------------------------
+  i=3 (00000000 00000000 00000000 00000011)
+
+State 319 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[3l]=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 322 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[3l]=-4008l (11111111 11111111 11111111 11111111 11111111 11111111 11110000 01011000)
+
+State 329 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 84 function verify_overflow thread 0
+----------------------------------------------------
+  expression=TRUE (00000001)
+
+State 332 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 81 function verify_overflow thread 0
+----------------------------------------------------
+  i=4 (00000000 00000000 00000000 00000100)
+
+State 335 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 82 function verify_overflow thread 0
+----------------------------------------------------
+  y[4l]=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 338 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 83 function verify_overflow thread 0
+----------------------------------------------------
+  x[4l]=4079l (00000000 00000000 00000000 00000000 00000000 00000000 00001111 11101111)
+
+State 345 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 84 function verify_overflow thread 0
+----------------------------------------------------
+  expression=TRUE (00000001)
+
+State 348 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 81 function verify_overflow thread 0
+----------------------------------------------------
+  i=5 (00000000 00000000 00000000 00000101)
+
+State 351 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 87 function verify_overflow thread 0
+----------------------------------------------------
+  Nw=0 (00000000 00000000 00000000 00000000)
+
+State 352 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 87 function verify_overflow thread 0
+----------------------------------------------------
+  Nw=0 (00000000 00000000 00000000 00000000)
+
+State 353 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 91 function verify_overflow thread 0
+----------------------------------------------------
+  Nw=2 (00000000 00000000 00000000 00000010)
+
+State 356 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 94 function verify_overflow thread 0
+----------------------------------------------------
+  yaux={ 0l, 0l } ({ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 })
+
+State 359 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 95 function verify_overflow thread 0
+----------------------------------------------------
+  xaux={ 0l, 0l } ({ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 })
+
+State 362 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 96 function verify_overflow thread 0
+----------------------------------------------------
+  waux={ 0l, 0l } ({ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 })
+
+State 363 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 98 function verify_overflow thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 365 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 99 function verify_overflow thread 0
+----------------------------------------------------
+  yaux[0l]=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 366 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 98 function verify_overflow thread 0
+----------------------------------------------------
+  i=1 (00000000 00000000 00000000 00000001)
+
+State 369 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 99 function verify_overflow thread 0
+----------------------------------------------------
+  yaux[1l]=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 370 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 98 function verify_overflow thread 0
+----------------------------------------------------
+  i=2 (00000000 00000000 00000000 00000010)
+
+State 373 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 101 function verify_overflow thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 375 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 102 function verify_overflow thread 0
+----------------------------------------------------
+  xaux[0l]=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 376 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 101 function verify_overflow thread 0
+----------------------------------------------------
+  i=1 (00000000 00000000 00000000 00000001)
+
+State 379 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 102 function verify_overflow thread 0
+----------------------------------------------------
+  xaux[1l]=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 380 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 101 function verify_overflow thread 0
+----------------------------------------------------
+  i=2 (00000000 00000000 00000000 00000010)
+
+State 383 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 104 function verify_overflow thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 385 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 105 function verify_overflow thread 0
+----------------------------------------------------
+  waux[0l]=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 386 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 104 function verify_overflow thread 0
+----------------------------------------------------
+  i=1 (00000000 00000000 00000000 00000001)
+
+State 389 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 105 function verify_overflow thread 0
+----------------------------------------------------
+  waux[1l]=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 390 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 104 function verify_overflow thread 0
+----------------------------------------------------
+  i=2 (00000000 00000000 00000000 00000010)
+
+State 393 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 108 function verify_overflow thread 0
+----------------------------------------------------
+  xk=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 394 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 108 function verify_overflow thread 0
+----------------------------------------------------
+  temp=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 395 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 109 function verify_overflow thread 0
+----------------------------------------------------
+  aptr=((signed long int *)NULL) (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 396 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 109 function verify_overflow thread 0
+----------------------------------------------------
+  bptr=((signed long int *)NULL) (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 397 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 109 function verify_overflow thread 0
+----------------------------------------------------
+  xptr=((signed long int *)NULL) (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 398 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 109 function verify_overflow thread 0
+----------------------------------------------------
+  yptr=((signed long int *)NULL) (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 399 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 109 function verify_overflow thread 0
+----------------------------------------------------
+  wptr=((signed long int *)NULL) (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 400 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 111 function verify_overflow thread 0
+----------------------------------------------------
+  j=0 (00000000 00000000 00000000 00000000)
+
+State 401 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 112 function verify_overflow thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 405 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  w=waux!0@1 (00000110 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 406 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  x=4089l (00000000 00000000 00000000 00000000 00000000 00000000 00001111 11111001)
+
+State 407 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  a=a_fxp!0@1 (00000100 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 408 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  b=b_fxp!0@1 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 409 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  Na=2 (00000000 00000000 00000000 00000010)
+
+State 410 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  Nb=2 (00000000 00000000 00000000 00000010)
+
+State 411 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 70 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a_ptr=((signed long int *)NULL) (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 412 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 70 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=((signed long int *)NULL) (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 413 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 71 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 414 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 71 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 415 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 72 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a_ptr=a_fxp!0@1 + 1 (00000100 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 416 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 73 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=b_fxp!0@1 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 417 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 74 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  Nw=0 (00000000 00000000 00000000 00000000)
+
+State 418 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 74 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  Nw=2 (00000000 00000000 00000000 00000010)
+
+State 421 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=b_fxp!0@1 + 1 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 425 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  amult=3809l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11100001)
+
+State 426 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bmult=4089l (00000000 00000000 00000000 00000000 00000000 00000000 00001111 11111001)
+
+State 427 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 428 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 429 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=15575001l (00000000 00000000 00000000 00000000 00000000 11101101 10100111 11011001)
+
+State 431 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 435 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  aquant=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 440 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 446 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  aadd=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 447 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  badd=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 448 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 328 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 449 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 452 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  aquant=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 457 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 460 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 463 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 76 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 464 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 76 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 467 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 373 function fxp_div thread 0
+----------------------------------------------------
+  expression=TRUE (00000001)
+
+State 470 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 471 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 474 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 375 function fxp_div thread 0
+----------------------------------------------------
+  aquant=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 479 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 375 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 482 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 76 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 483 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 77 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  j=0 (00000000 00000000 00000000 00000000)
+
+State 484 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 78 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  j=0 (00000000 00000000 00000000 00000000)
+
+State 486 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  waux[0l]=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 490 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a_ptr=a_fxp!0@1 + 2 (00000100 00000000 00000000 00000000 00000000 00000000 00000000 00010000)
+
+State 494 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  amult=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 495 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bmult=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 496 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 497 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 498 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=15572992l (00000000 00000000 00000000 00000000 00000000 11101101 10100000 00000000)
+
+State 500 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 504 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  aquant=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 509 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 515 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  asub=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 516 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bsub=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 517 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 341 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 518 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub=-3802l (11111111 11111111 11111111 11111111 11111111 11111111 11110001 00100110)
+
+State 521 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 343 function fxp_sub thread 0
+----------------------------------------------------
+  aquant=-3802l (11111111 11111111 11111111 11111111 11111111 11111111 11110001 00100110)
+
+State 526 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 343 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub=-3802l (11111111 11111111 11111111 11111111 11111111 11111111 11110001 00100110)
+
+State 529 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  waux[0l]=-3802l (11111111 11111111 11111111 11111111 11111111 11111111 11110001 00100110)
+
+State 533 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=b_fxp!0@1 + 2 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00010000)
+
+State 537 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  amult=-3564l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00010100)
+
+State 538 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bmult=4089l (00000000 00000000 00000000 00000000 00000000 00000000 00001111 11111001)
+
+State 539 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 540 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 541 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=-14573196l (11111111 11111111 11111111 11111111 11111111 00100001 10100001 01110100)
+
+State 543 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=-3558l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00011010)
+
+State 546 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  aquant=-3558l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00011010)
+
+State 551 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=-3558l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00011010)
+
+State 557 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  aadd=-3802l (11111111 11111111 11111111 11111111 11111111 11111111 11110001 00100110)
+
+State 558 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  badd=-3558l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00011010)
+
+State 559 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 328 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 560 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=-7360l (11111111 11111111 11111111 11111111 11111111 11111111 11100011 01000000)
+
+State 563 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  aquant=-7360l (11111111 11111111 11111111 11111111 11111111 11111111 11100011 01000000)
+
+State 568 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=-7360l (11111111 11111111 11111111 11111111 11111111 11111111 11100011 01000000)
+
+State 571 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  waux[0l]=-7360l (11111111 11111111 11111111 11111111 11111111 11111111 11100011 01000000)
+
+State 572 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 78 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  j=1 (00000000 00000000 00000000 00000001)
+
+State 577 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 88 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  value=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 578 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 88 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  msg="An Overflow Occurred in the node a0" (00000111 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 584 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 89 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  aquant=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 592 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  y[0l]=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 593 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 112 function verify_overflow thread 0
+----------------------------------------------------
+  i=1 (00000000 00000000 00000000 00000001)
+
+State 598 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  w=waux!0@1 (00000110 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 599 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  x=-3906l (11111111 11111111 11111111 11111111 11111111 11111111 11110000 10111110)
+
+State 600 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  a=a_fxp!0@1 (00000100 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 601 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  b=b_fxp!0@1 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 602 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  Na=2 (00000000 00000000 00000000 00000010)
+
+State 603 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  Nb=2 (00000000 00000000 00000000 00000010)
+
+State 604 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 70 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a_ptr=((signed long int *)NULL) (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 605 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 70 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=((signed long int *)NULL) (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 606 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 71 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 607 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 71 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 608 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 72 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a_ptr=a_fxp!0@1 + 1 (00000100 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 609 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 73 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=b_fxp!0@1 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 610 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 74 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  Nw=0 (00000000 00000000 00000000 00000000)
+
+State 611 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 74 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  Nw=2 (00000000 00000000 00000000 00000010)
+
+State 614 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=b_fxp!0@1 + 1 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 618 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  amult=3809l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11100001)
+
+State 619 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bmult=-3906l (11111111 11111111 11111111 11111111 11111111 11111111 11110000 10111110)
+
+State 620 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 621 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 622 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=-14877954l (11111111 11111111 11111111 11111111 11111111 00011100 11111010 11111110)
+
+State 624 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=-3632l (11111111 11111111 11111111 11111111 11111111 11111111 11110001 11010000)
+
+State 627 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  aquant=-3632l (11111111 11111111 11111111 11111111 11111111 11111111 11110001 11010000)
+
+State 632 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=-3632l (11111111 11111111 11111111 11111111 11111111 11111111 11110001 11010000)
+
+State 638 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  aadd=-3632l (11111111 11111111 11111111 11111111 11111111 11111111 11110001 11010000)
+
+State 639 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  badd=-7360l (11111111 11111111 11111111 11111111 11111111 11111111 11100011 01000000)
+
+State 640 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 328 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 641 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=-10992l (11111111 11111111 11111111 11111111 11111111 11111111 11010101 00010000)
+
+State 644 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  aquant=-10992l (11111111 11111111 11111111 11111111 11111111 11111111 11010101 00010000)
+
+State 649 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=-10992l (11111111 11111111 11111111 11111111 11111111 11111111 11010101 00010000)
+
+State 652 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=-10992l (11111111 11111111 11111111 11111111 11111111 11111111 11010101 00010000)
+
+State 655 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 76 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a=-10992l (11111111 11111111 11111111 11111111 11111111 11111111 11010101 00010000)
+
+State 656 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 76 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 659 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 373 function fxp_div thread 0
+----------------------------------------------------
+  expression=TRUE (00000001)
+
+State 662 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 663 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv=-10992l (11111111 11111111 11111111 11111111 11111111 11111111 11010101 00010000)
+
+State 666 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 375 function fxp_div thread 0
+----------------------------------------------------
+  aquant=-10992l (11111111 11111111 11111111 11111111 11111111 11111111 11010101 00010000)
+
+State 671 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 375 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv=-10992l (11111111 11111111 11111111 11111111 11111111 11111111 11010101 00010000)
+
+State 674 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 76 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=-10992l (11111111 11111111 11111111 11111111 11111111 11111111 11010101 00010000)
+
+State 675 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 77 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  j=0 (00000000 00000000 00000000 00000000)
+
+State 676 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 78 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  j=0 (00000000 00000000 00000000 00000000)
+
+State 678 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  waux[0l]=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 682 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a_ptr=a_fxp!0@1 + 2 (00000100 00000000 00000000 00000000 00000000 00000000 00000000 00010000)
+
+State 686 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  amult=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 687 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bmult=-10992l (11111111 11111111 11111111 11111111 11111111 11111111 11010101 00010000)
+
+State 688 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 689 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 690 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=-45023232l (11111111 11111111 11111111 11111111 11111101 01010001 00000000 00000000)
+
+State 692 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=-10992l (11111111 11111111 11111111 11111111 11111111 11111111 11010101 00010000)
+
+State 695 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  aquant=-10992l (11111111 11111111 11111111 11111111 11111111 11111111 11010101 00010000)
+
+State 700 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=-10992l (11111111 11111111 11111111 11111111 11111111 11111111 11010101 00010000)
+
+State 706 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  asub=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 707 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bsub=-10992l (11111111 11111111 11111111 11111111 11111111 11111111 11010101 00010000)
+
+State 708 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 341 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 709 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub=10992l (00000000 00000000 00000000 00000000 00000000 00000000 00101010 11110000)
+
+State 712 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 343 function fxp_sub thread 0
+----------------------------------------------------
+  aquant=10992l (00000000 00000000 00000000 00000000 00000000 00000000 00101010 11110000)
+
+State 717 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 343 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub=10992l (00000000 00000000 00000000 00000000 00000000 00000000 00101010 11110000)
+
+State 720 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  waux[0l]=10992l (00000000 00000000 00000000 00000000 00000000 00000000 00101010 11110000)
+
+State 724 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=b_fxp!0@1 + 2 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00010000)
+
+State 728 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  amult=-3564l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00010100)
+
+State 729 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bmult=-3906l (11111111 11111111 11111111 11111111 11111111 11111111 11110000 10111110)
+
+State 730 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 731 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 732 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=13920984l (00000000 00000000 00000000 00000000 00000000 11010100 01101010 11011000)
+
+State 734 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=3399l (00000000 00000000 00000000 00000000 00000000 00000000 00001101 01000111)
+
+State 738 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  aquant=3399l (00000000 00000000 00000000 00000000 00000000 00000000 00001101 01000111)
+
+State 743 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=3399l (00000000 00000000 00000000 00000000 00000000 00000000 00001101 01000111)
+
+State 749 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  aadd=10992l (00000000 00000000 00000000 00000000 00000000 00000000 00101010 11110000)
+
+State 750 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  badd=3399l (00000000 00000000 00000000 00000000 00000000 00000000 00001101 01000111)
+
+State 751 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 328 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 752 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=14391l (00000000 00000000 00000000 00000000 00000000 00000000 00111000 00110111)
+
+State 755 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  aquant=14391l (00000000 00000000 00000000 00000000 00000000 00000000 00111000 00110111)
+
+State 760 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=14391l (00000000 00000000 00000000 00000000 00000000 00000000 00111000 00110111)
+
+State 763 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  waux[0l]=14391l (00000000 00000000 00000000 00000000 00000000 00000000 00111000 00110111)
+
+State 764 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 78 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  j=1 (00000000 00000000 00000000 00000001)
+
+State 769 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 88 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  value=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 770 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 88 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  msg="An Overflow Occurred in the node a0" (00000111 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 776 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 89 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  aquant=-10992l (11111111 11111111 11111111 11111111 11111111 11111111 11010101 00010000)
+
+State 784 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  y[1l]=-10992l (11111111 11111111 11111111 11111111 11111111 11111111 11010101 00010000)
+
+State 785 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 112 function verify_overflow thread 0
+----------------------------------------------------
+  i=2 (00000000 00000000 00000000 00000010)
+
+State 790 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  w=waux!0@1 (00000110 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 791 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  x=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 792 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  a=a_fxp!0@1 (00000100 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 793 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  b=b_fxp!0@1 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 794 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  Na=2 (00000000 00000000 00000000 00000010)
+
+State 795 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  Nb=2 (00000000 00000000 00000000 00000010)
+
+State 796 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 70 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a_ptr=((signed long int *)NULL) (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 797 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 70 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=((signed long int *)NULL) (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 798 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 71 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 799 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 71 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 800 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 72 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a_ptr=a_fxp!0@1 + 1 (00000100 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 801 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 73 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=b_fxp!0@1 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 802 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 74 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  Nw=0 (00000000 00000000 00000000 00000000)
+
+State 803 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 74 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  Nw=2 (00000000 00000000 00000000 00000010)
+
+State 806 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=b_fxp!0@1 + 1 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 810 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  amult=3809l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11100001)
+
+State 811 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bmult=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 812 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 813 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 814 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=15601664l (00000000 00000000 00000000 00000000 00000000 11101110 00010000 00000000)
+
+State 816 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=3809l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11100001)
+
+State 820 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  aquant=3809l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11100001)
+
+State 825 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=3809l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11100001)
+
+State 831 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  aadd=3809l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11100001)
+
+State 832 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  badd=14391l (00000000 00000000 00000000 00000000 00000000 00000000 00111000 00110111)
+
+State 833 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 328 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 834 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=18200l (00000000 00000000 00000000 00000000 00000000 00000000 01000111 00011000)
+
+State 837 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  aquant=18200l (00000000 00000000 00000000 00000000 00000000 00000000 01000111 00011000)
+
+State 842 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=18200l (00000000 00000000 00000000 00000000 00000000 00000000 01000111 00011000)
+
+State 845 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=18200l (00000000 00000000 00000000 00000000 00000000 00000000 01000111 00011000)
+
+State 848 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 76 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a=18200l (00000000 00000000 00000000 00000000 00000000 00000000 01000111 00011000)
+
+State 849 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 76 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 852 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 373 function fxp_div thread 0
+----------------------------------------------------
+  expression=TRUE (00000001)
+
+State 855 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 856 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv=18200l (00000000 00000000 00000000 00000000 00000000 00000000 01000111 00011000)
+
+State 859 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 375 function fxp_div thread 0
+----------------------------------------------------
+  aquant=18200l (00000000 00000000 00000000 00000000 00000000 00000000 01000111 00011000)
+
+State 864 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 375 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv=18200l (00000000 00000000 00000000 00000000 00000000 00000000 01000111 00011000)
+
+State 867 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 76 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=18200l (00000000 00000000 00000000 00000000 00000000 00000000 01000111 00011000)
+
+State 868 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 77 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  j=0 (00000000 00000000 00000000 00000000)
+
+State 869 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 78 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  j=0 (00000000 00000000 00000000 00000000)
+
+State 871 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  waux[0l]=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 875 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a_ptr=a_fxp!0@1 + 2 (00000100 00000000 00000000 00000000 00000000 00000000 00000000 00010000)
+
+State 879 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  amult=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 880 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bmult=18200l (00000000 00000000 00000000 00000000 00000000 00000000 01000111 00011000)
+
+State 881 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 882 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 883 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=74547200l (00000000 00000000 00000000 00000000 00000100 01110001 10000000 00000000)
+
+State 885 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=18200l (00000000 00000000 00000000 00000000 00000000 00000000 01000111 00011000)
+
+State 889 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  aquant=18200l (00000000 00000000 00000000 00000000 00000000 00000000 01000111 00011000)
+
+State 894 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=18200l (00000000 00000000 00000000 00000000 00000000 00000000 01000111 00011000)
+
+State 900 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  asub=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 901 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bsub=18200l (00000000 00000000 00000000 00000000 00000000 00000000 01000111 00011000)
+
+State 902 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 341 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 903 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub=-18200l (11111111 11111111 11111111 11111111 11111111 11111111 10111000 11101000)
+
+State 906 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 343 function fxp_sub thread 0
+----------------------------------------------------
+  aquant=-18200l (11111111 11111111 11111111 11111111 11111111 11111111 10111000 11101000)
+
+State 911 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 343 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub=-18200l (11111111 11111111 11111111 11111111 11111111 11111111 10111000 11101000)
+
+State 914 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  waux[0l]=-18200l (11111111 11111111 11111111 11111111 11111111 11111111 10111000 11101000)
+
+State 918 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=b_fxp!0@1 + 2 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00010000)
+
+State 922 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  amult=-3564l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00010100)
+
+State 923 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bmult=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 924 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 925 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 926 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=-14598144l (11111111 11111111 11111111 11111111 11111111 00100001 01000000 00000000)
+
+State 928 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=-3564l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00010100)
+
+State 931 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  aquant=-3564l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00010100)
+
+State 936 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=-3564l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00010100)
+
+State 942 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  aadd=-18200l (11111111 11111111 11111111 11111111 11111111 11111111 10111000 11101000)
+
+State 943 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  badd=-3564l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00010100)
+
+State 944 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 328 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 945 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=-21764l (11111111 11111111 11111111 11111111 11111111 11111111 10101010 11111100)
+
+State 948 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  aquant=-21764l (11111111 11111111 11111111 11111111 11111111 11111111 10101010 11111100)
+
+State 953 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=-21764l (11111111 11111111 11111111 11111111 11111111 11111111 10101010 11111100)
+
+State 956 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  waux[0l]=-21764l (11111111 11111111 11111111 11111111 11111111 11111111 10101010 11111100)
+
+State 957 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 78 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  j=1 (00000000 00000000 00000000 00000001)
+
+State 962 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 88 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  value=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 963 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 88 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  msg="An Overflow Occurred in the node a0" (00000111 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 969 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 89 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  aquant=18200l (00000000 00000000 00000000 00000000 00000000 00000000 01000111 00011000)
+
+State 977 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  y[2l]=18200l (00000000 00000000 00000000 00000000 00000000 00000000 01000111 00011000)
+
+State 978 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 112 function verify_overflow thread 0
+----------------------------------------------------
+  i=3 (00000000 00000000 00000000 00000011)
+
+State 983 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  w=waux!0@1 (00000110 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 984 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  x=-4008l (11111111 11111111 11111111 11111111 11111111 11111111 11110000 01011000)
+
+State 985 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  a=a_fxp!0@1 (00000100 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 986 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  b=b_fxp!0@1 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 987 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  Na=2 (00000000 00000000 00000000 00000010)
+
+State 988 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  Nb=2 (00000000 00000000 00000000 00000010)
+
+State 989 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 70 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a_ptr=((signed long int *)NULL) (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 990 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 70 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=((signed long int *)NULL) (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 991 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 71 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 992 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 71 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 993 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 72 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a_ptr=a_fxp!0@1 + 1 (00000100 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 994 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 73 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=b_fxp!0@1 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 995 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 74 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  Nw=0 (00000000 00000000 00000000 00000000)
+
+State 996 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 74 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  Nw=2 (00000000 00000000 00000000 00000010)
+
+State 999 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=b_fxp!0@1 + 1 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 1003 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  amult=3809l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11100001)
+
+State 1004 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bmult=-4008l (11111111 11111111 11111111 11111111 11111111 11111111 11110000 01011000)
+
+State 1005 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1006 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1007 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=-15266472l (11111111 11111111 11111111 11111111 11111111 00010111 00001101 01011000)
+
+State 1009 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=-3727l (11111111 11111111 11111111 11111111 11111111 11111111 11110001 01110001)
+
+State 1012 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  aquant=-3727l (11111111 11111111 11111111 11111111 11111111 11111111 11110001 01110001)
+
+State 1017 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=-3727l (11111111 11111111 11111111 11111111 11111111 11111111 11110001 01110001)
+
+State 1023 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  aadd=-3727l (11111111 11111111 11111111 11111111 11111111 11111111 11110001 01110001)
+
+State 1024 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  badd=-21764l (11111111 11111111 11111111 11111111 11111111 11111111 10101010 11111100)
+
+State 1025 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 328 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1026 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=-25491l (11111111 11111111 11111111 11111111 11111111 11111111 10011100 01101101)
+
+State 1029 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  aquant=-25491l (11111111 11111111 11111111 11111111 11111111 11111111 10011100 01101101)
+
+State 1034 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=-25491l (11111111 11111111 11111111 11111111 11111111 11111111 10011100 01101101)
+
+State 1037 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=-25491l (11111111 11111111 11111111 11111111 11111111 11111111 10011100 01101101)
+
+State 1040 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 76 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a=-25491l (11111111 11111111 11111111 11111111 11111111 11111111 10011100 01101101)
+
+State 1041 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 76 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 1044 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 373 function fxp_div thread 0
+----------------------------------------------------
+  expression=TRUE (00000001)
+
+State 1047 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1048 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv=-25491l (11111111 11111111 11111111 11111111 11111111 11111111 10011100 01101101)
+
+State 1051 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 375 function fxp_div thread 0
+----------------------------------------------------
+  aquant=-25491l (11111111 11111111 11111111 11111111 11111111 11111111 10011100 01101101)
+
+State 1056 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 375 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv=-25491l (11111111 11111111 11111111 11111111 11111111 11111111 10011100 01101101)
+
+State 1059 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 76 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=-25491l (11111111 11111111 11111111 11111111 11111111 11111111 10011100 01101101)
+
+State 1060 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 77 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  j=0 (00000000 00000000 00000000 00000000)
+
+State 1061 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 78 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  j=0 (00000000 00000000 00000000 00000000)
+
+State 1063 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  waux[0l]=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1067 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a_ptr=a_fxp!0@1 + 2 (00000100 00000000 00000000 00000000 00000000 00000000 00000000 00010000)
+
+State 1071 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  amult=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 1072 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bmult=-25491l (11111111 11111111 11111111 11111111 11111111 11111111 10011100 01101101)
+
+State 1073 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1074 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1075 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=-104411136l (11111111 11111111 11111111 11111111 11111001 11000110 11010000 00000000)
+
+State 1077 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=-25491l (11111111 11111111 11111111 11111111 11111111 11111111 10011100 01101101)
+
+State 1080 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  aquant=-25491l (11111111 11111111 11111111 11111111 11111111 11111111 10011100 01101101)
+
+State 1085 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=-25491l (11111111 11111111 11111111 11111111 11111111 11111111 10011100 01101101)
+
+State 1091 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  asub=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1092 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bsub=-25491l (11111111 11111111 11111111 11111111 11111111 11111111 10011100 01101101)
+
+State 1093 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 341 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1094 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub=25491l (00000000 00000000 00000000 00000000 00000000 00000000 01100011 10010011)
+
+State 1097 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 343 function fxp_sub thread 0
+----------------------------------------------------
+  aquant=25491l (00000000 00000000 00000000 00000000 00000000 00000000 01100011 10010011)
+
+State 1102 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 343 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub=25491l (00000000 00000000 00000000 00000000 00000000 00000000 01100011 10010011)
+
+State 1105 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  waux[0l]=25491l (00000000 00000000 00000000 00000000 00000000 00000000 01100011 10010011)
+
+State 1109 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=b_fxp!0@1 + 2 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00010000)
+
+State 1113 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  amult=-3564l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00010100)
+
+State 1114 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bmult=-4008l (11111111 11111111 11111111 11111111 11111111 11111111 11110000 01011000)
+
+State 1115 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1116 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1117 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=14284512l (00000000 00000000 00000000 00000000 00000000 11011001 11110110 11100000)
+
+State 1119 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=3487l (00000000 00000000 00000000 00000000 00000000 00000000 00001101 10011111)
+
+State 1123 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  aquant=3487l (00000000 00000000 00000000 00000000 00000000 00000000 00001101 10011111)
+
+State 1128 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=3487l (00000000 00000000 00000000 00000000 00000000 00000000 00001101 10011111)
+
+State 1134 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  aadd=25491l (00000000 00000000 00000000 00000000 00000000 00000000 01100011 10010011)
+
+State 1135 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  badd=3487l (00000000 00000000 00000000 00000000 00000000 00000000 00001101 10011111)
+
+State 1136 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 328 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1137 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=28978l (00000000 00000000 00000000 00000000 00000000 00000000 01110001 00110010)
+
+State 1140 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  aquant=28978l (00000000 00000000 00000000 00000000 00000000 00000000 01110001 00110010)
+
+State 1145 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=28978l (00000000 00000000 00000000 00000000 00000000 00000000 01110001 00110010)
+
+State 1148 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  waux[0l]=28978l (00000000 00000000 00000000 00000000 00000000 00000000 01110001 00110010)
+
+State 1149 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 78 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  j=1 (00000000 00000000 00000000 00000001)
+
+State 1154 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 88 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  value=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1155 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 88 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  msg="An Overflow Occurred in the node a0" (00000111 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1161 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 89 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  aquant=-25491l (11111111 11111111 11111111 11111111 11111111 11111111 10011100 01101101)
+
+State 1169 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  y[3l]=-25491l (11111111 11111111 11111111 11111111 11111111 11111111 10011100 01101101)
+
+State 1170 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 112 function verify_overflow thread 0
+----------------------------------------------------
+  i=4 (00000000 00000000 00000000 00000100)
+
+State 1175 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  w=waux!0@1 (00000110 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1176 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  x=4079l (00000000 00000000 00000000 00000000 00000000 00000000 00001111 11101111)
+
+State 1177 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  a=a_fxp!0@1 (00000100 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1178 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  b=b_fxp!0@1 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1179 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  Na=2 (00000000 00000000 00000000 00000010)
+
+State 1180 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  Nb=2 (00000000 00000000 00000000 00000010)
+
+State 1181 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 70 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a_ptr=((signed long int *)NULL) (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1182 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 70 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=((signed long int *)NULL) (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1183 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 71 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1184 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 71 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1185 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 72 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a_ptr=a_fxp!0@1 + 1 (00000100 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 1186 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 73 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=b_fxp!0@1 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1187 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 74 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  Nw=0 (00000000 00000000 00000000 00000000)
+
+State 1188 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 74 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  Nw=2 (00000000 00000000 00000000 00000010)
+
+State 1191 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=b_fxp!0@1 + 1 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00001000)
+
+State 1195 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  amult=3809l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11100001)
+
+State 1196 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bmult=4079l (00000000 00000000 00000000 00000000 00000000 00000000 00001111 11101111)
+
+State 1197 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1198 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1199 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=15536911l (00000000 00000000 00000000 00000000 00000000 11101101 00010011 00001111)
+
+State 1201 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=3793l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11010001)
+
+State 1205 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  aquant=3793l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11010001)
+
+State 1210 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=3793l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11010001)
+
+State 1216 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  aadd=3793l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11010001)
+
+State 1217 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  badd=28978l (00000000 00000000 00000000 00000000 00000000 00000000 01110001 00110010)
+
+State 1218 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 328 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1219 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=32771l (00000000 00000000 00000000 00000000 00000000 00000000 10000000 00000011)
+
+State 1222 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  aquant=32771l (00000000 00000000 00000000 00000000 00000000 00000000 10000000 00000011)
+
+State 1227 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=32771l (00000000 00000000 00000000 00000000 00000000 00000000 10000000 00000011)
+
+State 1230 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 75 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=32771l (00000000 00000000 00000000 00000000 00000000 00000000 10000000 00000011)
+
+State 1233 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 76 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a=32771l (00000000 00000000 00000000 00000000 00000000 00000000 10000000 00000011)
+
+State 1234 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 76 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 1237 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 373 function fxp_div thread 0
+----------------------------------------------------
+  expression=TRUE (00000001)
+
+State 1240 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1241 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 374 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv=32771l (00000000 00000000 00000000 00000000 00000000 00000000 10000000 00000011)
+
+State 1244 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 375 function fxp_div thread 0
+----------------------------------------------------
+  aquant=32771l (00000000 00000000 00000000 00000000 00000000 00000000 10000000 00000011)
+
+State 1249 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 375 function fxp_div thread 0
+----------------------------------------------------
+  tmpdiv=32771l (00000000 00000000 00000000 00000000 00000000 00000000 10000000 00000011)
+
+State 1252 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 76 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  yout=32771l (00000000 00000000 00000000 00000000 00000000 00000000 10000000 00000011)
+
+State 1253 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 77 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  j=0 (00000000 00000000 00000000 00000000)
+
+State 1254 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 78 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  j=0 (00000000 00000000 00000000 00000000)
+
+State 1256 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 79 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  waux[0l]=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1260 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  a_ptr=a_fxp!0@1 + 2 (00000100 00000000 00000000 00000000 00000000 00000000 00000000 00010000)
+
+State 1264 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  amult=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 1265 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bmult=32771l (00000000 00000000 00000000 00000000 00000000 00000000 10000000 00000011)
+
+State 1266 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1267 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1268 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=134230016l (00000000 00000000 00000000 00000000 00001000 00000000 00110000 00000000)
+
+State 1270 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 357 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=32771l (00000000 00000000 00000000 00000000 00000000 00000000 10000000 00000011)
+
+State 1274 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  aquant=32771l (00000000 00000000 00000000 00000000 00000000 00000000 10000000 00000011)
+
+State 1279 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=32771l (00000000 00000000 00000000 00000000 00000000 00000000 10000000 00000011)
+
+State 1285 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  asub=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1286 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bsub=32771l (00000000 00000000 00000000 00000000 00000000 00000000 10000000 00000011)
+
+State 1287 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 341 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1288 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 342 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub=-32771l (11111111 11111111 11111111 11111111 11111111 11111111 01111111 11111101)
+
+State 1291 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 343 function fxp_sub thread 0
+----------------------------------------------------
+  aquant=-32771l (11111111 11111111 11111111 11111111 11111111 11111111 01111111 11111101)
+
+State 1296 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 343 function fxp_sub thread 0
+----------------------------------------------------
+  tmpsub=-32771l (11111111 11111111 11111111 11111111 11111111 11111111 01111111 11111101)
+
+State 1299 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 81 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  waux[0l]=-32771l (11111111 11111111 11111111 11111111 11111111 11111111 01111111 11111101)
+
+State 1303 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  b_ptr=b_fxp!0@1 + 2 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00010000)
+
+State 1307 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  amult=-3564l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00010100)
+
+State 1308 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  bmult=4079l (00000000 00000000 00000000 00000000 00000000 00000000 00001111 11101111)
+
+State 1309 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1310 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 354 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1311 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 355 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmult=-14537556l (11111111 11111111 11111111 11111111 11111111 00100010 00101100 10101100)
+
+State 1313 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 359 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=-3549l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00100011)
+
+State 1316 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  aquant=-3549l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00100011)
+
+State 1321 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 361 function fxp_mult thread 0
+----------------------------------------------------
+  tmpmultprec=-3549l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00100011)
+
+State 1327 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  aadd=-32771l (11111111 11111111 11111111 11111111 11111111 11111111 01111111 11111101)
+
+State 1328 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  badd=-3549l (11111111 11111111 11111111 11111111 11111111 11111111 11110010 00100011)
+
+State 1329 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 328 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1330 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 329 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=-36320l (11111111 11111111 11111111 11111111 11111111 11111111 01110010 00100000)
+
+State 1333 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  aquant=-36320l (11111111 11111111 11111111 11111111 11111111 11111111 01110010 00100000)
+
+State 1338 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 330 function fxp_add thread 0
+----------------------------------------------------
+  tmpadd=-36320l (11111111 11111111 11111111 11111111 11111111 11111111 01110010 00100000)
+
+State 1341 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 84 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  waux[0l]=-36320l (11111111 11111111 11111111 11111111 11111111 11111111 01110010 00100000)
+
+State 1342 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 78 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  j=1 (00000000 00000000 00000000 00000001)
+
+State 1347 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 88 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  value=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1348 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 88 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  msg="An Overflow Occurred in the node a0" (00000111 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1354 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/realizations.h line 89 function fxp_transposed_direct_form_2 thread 0
+----------------------------------------------------
+  aquant=32771l (00000000 00000000 00000000 00000000 00000000 00000000 10000000 00000011)
+
+State 1362 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 129 function verify_overflow thread 0
+----------------------------------------------------
+  y[4l]=32771l (00000000 00000000 00000000 00000000 00000000 00000000 10000000 00000011)
+
+State 1363 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 112 function verify_overflow thread 0
+----------------------------------------------------
+  i=5 (00000000 00000000 00000000 00000101)
+
+State 1366 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 176 function verify_overflow thread 0
+----------------------------------------------------
+  overflow_mode=1 (00000000 00000000 00000000 00000001)
+
+State 1369 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 177 function verify_overflow thread 0
+----------------------------------------------------
+  array=y!0@1 (00001000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 1370 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_overflow.h line 177 function verify_overflow thread 0
+----------------------------------------------------
+  n=5 (00000000 00000000 00000000 00000101)
+
+State 1371 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 170 function fxp_verify_overflow_array thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 1372 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 170 function fxp_verify_overflow_array thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 1373 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 171 function fxp_verify_overflow_array thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 1377 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 172 function fxp_verify_overflow_array thread 0
+----------------------------------------------------
+  value=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+
+State 1380 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 156 function fxp_verify_overflow thread 0
+----------------------------------------------------
+  aquant=3802l (00000000 00000000 00000000 00000000 00000000 00000000 00001110 11011010)
+An Overflow Occurred in system's output
+
+State 1388 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 158 function fxp_verify_overflow thread 0
+----------------------------------------------------
+  expression=TRUE (00000001)
+
+State 1392 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 171 function fxp_verify_overflow_array thread 0
+----------------------------------------------------
+  i=1 (00000000 00000000 00000000 00000001)
+
+State 1397 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 172 function fxp_verify_overflow_array thread 0
+----------------------------------------------------
+  value=-10992l (11111111 11111111 11111111 11111111 11111111 11111111 11010101 00010000)
+
+State 1400 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 156 function fxp_verify_overflow thread 0
+----------------------------------------------------
+  aquant=-10992l (11111111 11111111 11111111 11111111 11111111 11111111 11010101 00010000)
+An Overflow Occurred in system's output
+
+State 1408 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 158 function fxp_verify_overflow thread 0
+----------------------------------------------------
+  expression=TRUE (00000001)
+
+State 1412 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 171 function fxp_verify_overflow_array thread 0
+----------------------------------------------------
+  i=2 (00000000 00000000 00000000 00000010)
+
+State 1417 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 172 function fxp_verify_overflow_array thread 0
+----------------------------------------------------
+  value=18200l (00000000 00000000 00000000 00000000 00000000 00000000 01000111 00011000)
+
+State 1420 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 156 function fxp_verify_overflow thread 0
+----------------------------------------------------
+  aquant=18200l (00000000 00000000 00000000 00000000 00000000 00000000 01000111 00011000)
+An Overflow Occurred in system's output
+
+State 1428 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 158 function fxp_verify_overflow thread 0
+----------------------------------------------------
+  expression=TRUE (00000001)
+
+State 1432 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 171 function fxp_verify_overflow_array thread 0
+----------------------------------------------------
+  i=3 (00000000 00000000 00000000 00000011)
+
+State 1437 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 172 function fxp_verify_overflow_array thread 0
+----------------------------------------------------
+  value=-25491l (11111111 11111111 11111111 11111111 11111111 11111111 10011100 01101101)
+
+State 1440 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 156 function fxp_verify_overflow thread 0
+----------------------------------------------------
+  aquant=-25491l (11111111 11111111 11111111 11111111 11111111 11111111 10011100 01101101)
+An Overflow Occurred in system's output
+
+State 1448 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 158 function fxp_verify_overflow thread 0
+----------------------------------------------------
+  expression=TRUE (00000001)
+
+State 1452 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 171 function fxp_verify_overflow_array thread 0
+----------------------------------------------------
+  i=4 (00000000 00000000 00000000 00000100)
+
+State 1457 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 172 function fxp_verify_overflow_array thread 0
+----------------------------------------------------
+  value=32771l (00000000 00000000 00000000 00000000 00000000 00000000 10000000 00000011)
+
+State 1460 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 156 function fxp_verify_overflow thread 0
+----------------------------------------------------
+  aquant=32771l (00000000 00000000 00000000 00000000 00000000 00000000 10000000 00000011)
+An Overflow Occurred in system's output
+
+State 1468 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 158 function fxp_verify_overflow thread 0
+----------------------------------------------------
+  expression=FALSE (00000000)
+
+Violated property:
+  file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/compatibility.h line 36 function __DSVERIFIER_assert
+  assertion expression
+  expression != FALSE
+
+
+
+** 1 of 27 failed (2 iterations)
+VERIFICATION FAILED

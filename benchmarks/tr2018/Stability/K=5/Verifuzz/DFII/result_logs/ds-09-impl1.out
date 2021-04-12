@@ -1,0 +1,477 @@
+CBMC version 5.10 (n/a) 64-bit x86_64 linux
+Parsing /home/yashchopda/COMP30040_YashChopda/benchmarks/tr2018/Stability/K=5/Verifuzz/DFII/ds-09-impl1.c
+Converting
+Type-checking ds-09-impl1
+Generating GOTO Program
+Adding CPROVER library (x86_64)
+Removal of function pointers and virtual functions
+file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 474 function call_verification_task: replacing function pointer by 12 possible targets
+file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 557 function call_closedloop_verification_task: replacing function pointer by 12 possible targets
+Generic Property Instrumentation
+Running with 8 object bits, 56 offset bits (default)
+Starting Bounded Model Checking
+Unwinding loop call_verification_task.2 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 422 function call_verification_task thread 0
+Unwinding loop call_verification_task.2 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 422 function call_verification_task thread 0
+Unwinding loop call_verification_task.3 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 448 function call_verification_task thread 0
+Unwinding loop call_verification_task.3 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 448 function call_verification_task thread 0
+Unwinding loop fxp_double_to_fxp_array.0 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 260 function fxp_double_to_fxp_array thread 0
+Unwinding loop fxp_double_to_fxp_array.0 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 260 function fxp_double_to_fxp_array thread 0
+Unwinding loop fxp_to_double_array.0 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 304 function fxp_to_double_array thread 0
+Unwinding loop fxp_to_double_array.0 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 304 function fxp_to_double_array thread 0
+Unwinding loop check_stability.0 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 70 function check_stability thread 0
+Unwinding loop check_stability.0 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 70 function check_stability thread 0
+Unwinding loop check_stability.1 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 76 function check_stability thread 0
+Unwinding loop check_stability.1 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 76 function check_stability thread 0
+Unwinding loop internal_pow.0 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 44 function internal_pow thread 0
+Unwinding loop check_stability.2 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 86 function check_stability thread 0
+Unwinding loop check_stability.2 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 86 function check_stability thread 0
+Unwinding loop internal_pow.0 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 44 function internal_pow thread 0
+Unwinding loop check_stability.3 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 103 function check_stability thread 0
+Unwinding loop check_stability.3 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 103 function check_stability thread 0
+Unwinding loop check_stability.4 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 102 function check_stability thread 0
+Unwinding loop check_stability.3 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 103 function check_stability thread 0
+Unwinding loop check_stability.3 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 103 function check_stability thread 0
+Unwinding loop check_stability.4 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 102 function check_stability thread 0
+Unwinding loop check_stability.3 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 103 function check_stability thread 0
+Unwinding loop check_stability.3 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 103 function check_stability thread 0
+Unwinding loop check_stability.4 iteration 3 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 102 function check_stability thread 0
+Unwinding loop check_stability.6 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 108 function check_stability thread 0
+Unwinding loop check_stability.6 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 108 function check_stability thread 0
+Unwinding loop check_stability.7 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 107 function check_stability thread 0
+Unwinding loop check_stability.5 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 115 function check_stability thread 0
+Unwinding loop check_stability.5 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 115 function check_stability thread 0
+Unwinding loop check_stability.6 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 108 function check_stability thread 0
+Unwinding loop check_stability.7 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 107 function check_stability thread 0
+Unwinding loop check_stability.6 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 108 function check_stability thread 0
+Unwinding loop check_stability.7 iteration 3 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 107 function check_stability thread 0
+Unwinding loop check_stability.8 iteration 1 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 126 function check_stability thread 0
+Unwinding loop check_stability.8 iteration 2 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 126 function check_stability thread 0
+Unwinding loop check_stability.8 iteration 3 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 126 function check_stability thread 0
+size of program expression: 671 steps
+simple slicing removed 10 assignments
+Generated 1 VCC(s), 1 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with Glucose Syrup with simplifier
+21902 variables, 11194 clauses
+SAT checker: instance is SATISFIABLE
+Solving with Glucose Syrup with simplifier
+21902 variables, 0 clauses
+SAT checker inconsistent: instance is UNSATISFIABLE
+Runtime decision procedure: 0.0334002s
+
+** Results:
+[__DSVERIFIER_assert.assertion.1] assertion expression: SUCCESS
+[__DSVERIFIER_assert_msg.assertion.1] assertion expression: SUCCESS
+[double_check_oscillations.assertion.1] assertion !(window_count == window_size): SUCCESS
+[snrVariance.assertion.1] assertion sv >= nv: SUCCESS
+[snrPower.assertion.1] assertion sv >= nv: SUCCESS
+[snrPoint.assertion.1] assertion power >= 1.0f: SUCCESS
+[iirIIOutTime.assertion.1] assertion (double)timer1*CYCLE <= (double)DEADLINE: SUCCESS
+[iirIItOutTime.assertion.1] assertion (double)timer1*CYCLE <= (double)DEADLINE: SUCCESS
+[iirIItOutTime_double.assertion.1] assertion (double)timer1*CYCLE <= (double)DEADLINE: SUCCESS
+[double_direct_form_1_MSP430.assertion.1] assertion (double) timer1 * hw.cycle <= ds.sample_time: SUCCESS
+[double_direct_form_2_MSP430.assertion.1] assertion (double) timer1 * hw.cycle <= ds.sample_time: SUCCESS
+[double_transposed_direct_form_2_MSP430.assertion.1] assertion (double) timer1 * hw.cycle <= ds.sample_time: SUCCESS
+[initialization.assertion.1] assertion 0: SUCCESS
+[verify_limit_cycle_state_space.assertion.1] assertion 0: SUCCESS
+[verify_limit_cycle_state_space.assertion.2] assertion 0: SUCCESS
+[verify_zero_input_limit_cycle.assertion.1] assertion X_SIZE_VALUE >= Set_xsize_at_least_two_times_Na: SUCCESS
+[verify_generic_timing.assertion.1] assertion spent_time <= ds.sample_time: SUCCESS
+[verify_stability.assertion.1] assertion check_stability(_a, ds.a_size): FAILURE
+[verify_error_state_space.assertion.1] assertion __quant_error < error_limit && __quant_error > ((-1)*error_limit): SUCCESS
+[verify_error_state_space.assertion.2] assertion __quant_error < error_limit && __quant_error > ((-1)*error_limit): SUCCESS
+[verify_safety_state_space.assertion.1] assertion output_double <= error_limit: SUCCESS
+[verify_controllability.assertion.1] assertion determinant(controllabilityMatrix_double,nStates) != 0: SUCCESS
+[verify_controllability.assertion.2] assertion determinant(controllabilityMatrix_double,nStates) != 0: SUCCESS
+[verify_controllability_double.assertion.1] assertion determinant(mimo_controllabilityMatrix_double,nStates) != 0: SUCCESS
+[verify_controllability_double.assertion.2] assertion determinant(controllabilityMatrix,nStates) != 0: SUCCESS
+[verify_observability.assertion.1] assertion determinant(observabilityMatrix_double,nStates) != 0: SUCCESS
+[verify_observability.assertion.2] assertion determinant(observabilityMatrix_double,nStates) != 0: SUCCESS
+
+Trace for verify_stability.assertion.1:
+
+State 45 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 38 function initialization thread 0
+----------------------------------------------------
+  _fxp_one=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 46 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 41 function initialization thread 0
+----------------------------------------------------
+  _fxp_half=2048l (00000000 00000000 00000000 00000000 00000000 00000000 00001000 00000000)
+
+State 47 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 42 function initialization thread 0
+----------------------------------------------------
+  _fxp_minus_one=-4096l (11111111 11111111 11111111 11111111 11111111 11111111 11110000 00000000)
+
+State 48 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 43 function initialization thread 0
+----------------------------------------------------
+  _fxp_min=-32768l (11111111 11111111 11111111 11111111 11111111 11111111 10000000 00000000)
+
+State 49 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 44 function initialization thread 0
+----------------------------------------------------
+  _fxp_max=32767l (00000000 00000000 00000000 00000000 00000000 00000000 01111111 11111111)
+
+State 50 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 45 function initialization thread 0
+----------------------------------------------------
+  _fxp_fmask=4095l (00000000 00000000 00000000 00000000 00000000 00000000 00001111 11111111)
+
+State 51 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 46 function initialization thread 0
+----------------------------------------------------
+  _fxp_imask=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 52 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 48 function initialization thread 0
+----------------------------------------------------
+  _dbl_min=-32768.0 (11000000 11100000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 53 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 49 function initialization thread 0
+----------------------------------------------------
+  _dbl_min=-8.0 (11000000 00100000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 54 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 50 function initialization thread 0
+----------------------------------------------------
+  _dbl_max=32767.0 (01000000 11011111 11111111 11000000 00000000 00000000 00000000 00000000)
+
+State 55 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 51 function initialization thread 0
+----------------------------------------------------
+  _dbl_max=7.999756 (01000000 00011111 11111111 11000000 00000000 00000000 00000000 00000000)
+
+State 57 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/initialization.h line 55 function initialization thread 0
+----------------------------------------------------
+  impl.scale=1 (00000000 00000000 00000000 00000001)
+
+State 75 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 78 function main thread 0
+----------------------------------------------------
+  rounding_mode=1 (00000000 00000000 00000000 00000001)
+
+State 86 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 110 function main thread 0
+----------------------------------------------------
+  verification_task=&verify_stability (00000010 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 87 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 359 function call_verification_task thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 88 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 359 function call_verification_task thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 89 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 361 function call_verification_task thread 0
+----------------------------------------------------
+  base_case_executed=FALSE (00000000)
+
+State 90 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 361 function call_verification_task thread 0
+----------------------------------------------------
+  base_case_executed=FALSE (00000000)
+
+State 92 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 421 function call_verification_task thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 93 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 421 function call_verification_task thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 94 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 422 function call_verification_task thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 97 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 422 function call_verification_task thread 0
+----------------------------------------------------
+  i=1 (00000000 00000000 00000000 00000001)
+
+State 101 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 422 function call_verification_task thread 0
+----------------------------------------------------
+  i=2 (00000000 00000000 00000000 00000010)
+
+State 104 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 448 function call_verification_task thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 107 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 448 function call_verification_task thread 0
+----------------------------------------------------
+  i=1 (00000000 00000000 00000000 00000001)
+
+State 111 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/dsverifier.h line 448 function call_verification_task thread 0
+----------------------------------------------------
+  i=2 (00000000 00000000 00000000 00000010)
+
+State 119 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_stability.h line 26 function verify_stability thread 0
+----------------------------------------------------
+  overflow_mode=0 (00000000 00000000 00000000 00000000)
+
+State 122 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_stability.h line 30 function verify_stability thread 0
+----------------------------------------------------
+  a_fxp={ 0l, 0l } ({ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 })
+
+State 125 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_stability.h line 32 function verify_stability thread 0
+----------------------------------------------------
+  f=ds.a (00000011 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 126 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_stability.h line 32 function verify_stability thread 0
+----------------------------------------------------
+  r=a_fxp!0@1 (00000100 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 127 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_stability.h line 32 function verify_stability thread 0
+----------------------------------------------------
+  N=2 (00000000 00000000 00000000 00000010)
+
+State 128 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 259 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 129 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 260 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 133 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 261 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  value=1.0 (00111111 11110000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 134 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 223 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 135 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 136 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp=4096.0 (01000000 10110000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 139 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 233 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 140 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 141 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 146 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 261 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  a_fxp[0l]=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 147 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 260 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  i=1 (00000000 00000000 00000000 00000001)
+
+State 152 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 261 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  value=-1.0 (10111111 11110000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 153 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 223 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp=0l (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 154 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 155 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 224 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  ftemp=-4096.0 (11000000 10110000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 158 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 233 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  tmp=-4096l (11111111 11111111 11111111 11111111 11111111 11111111 11110000 00000000)
+
+State 159 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 160 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 234 function fxp_double_to_fxp thread 0
+----------------------------------------------------
+  residue=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 165 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 261 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  a_fxp[1l]=-4096l (11111111 11111111 11111111 11111111 11111111 11111111 11110000 00000000)
+
+State 166 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 260 function fxp_double_to_fxp_array thread 0
+----------------------------------------------------
+  i=2 (00000000 00000000 00000000 00000010)
+
+State 172 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_stability.h line 33 function verify_stability thread 0
+----------------------------------------------------
+  _a={ 0.0, 0.0 } ({ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 })
+
+State 175 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_stability.h line 35 function verify_stability thread 0
+----------------------------------------------------
+  f=_a!0@1 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 176 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_stability.h line 35 function verify_stability thread 0
+----------------------------------------------------
+  r=a_fxp!0@1 (00000100 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 177 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_stability.h line 35 function verify_stability thread 0
+----------------------------------------------------
+  N=2 (00000000 00000000 00000000 00000010)
+
+State 178 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 303 function fxp_to_double_array thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 179 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 304 function fxp_to_double_array thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 183 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 305 function fxp_to_double_array thread 0
+----------------------------------------------------
+  fxp=4096l (00000000 00000000 00000000 00000000 00000000 00000000 00010000 00000000)
+
+State 184 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 283 function fxp_to_double thread 0
+----------------------------------------------------
+  f=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 185 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 284 function fxp_to_double thread 0
+----------------------------------------------------
+  f_int=0 (00000000 00000000 00000000 00000000)
+
+State 186 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 284 function fxp_to_double thread 0
+----------------------------------------------------
+  f_int=4096 (00000000 00000000 00010000 00000000)
+
+State 187 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 285 function fxp_to_double thread 0
+----------------------------------------------------
+  f=1.0 (00111111 11110000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 190 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 305 function fxp_to_double_array thread 0
+----------------------------------------------------
+  _a[0l]=1.0 (00111111 11110000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 191 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 304 function fxp_to_double_array thread 0
+----------------------------------------------------
+  i=1 (00000000 00000000 00000000 00000001)
+
+State 196 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 305 function fxp_to_double_array thread 0
+----------------------------------------------------
+  fxp=-4096l (11111111 11111111 11111111 11111111 11111111 11111111 11110000 00000000)
+
+State 197 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 283 function fxp_to_double thread 0
+----------------------------------------------------
+  f=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 198 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 284 function fxp_to_double thread 0
+----------------------------------------------------
+  f_int=0 (00000000 00000000 00000000 00000000)
+
+State 199 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 284 function fxp_to_double thread 0
+----------------------------------------------------
+  f_int=-4096 (11111111 11111111 11110000 00000000)
+
+State 200 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 285 function fxp_to_double thread 0
+----------------------------------------------------
+  f=-1.0 (10111111 11110000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 203 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 305 function fxp_to_double_array thread 0
+----------------------------------------------------
+  _a[1l]=-1.0 (10111111 11110000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 204 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/fixed-point.h line 304 function fxp_to_double_array thread 0
+----------------------------------------------------
+  i=2 (00000000 00000000 00000000 00000010)
+
+State 211 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_stability.h line 37 function verify_stability thread 0
+----------------------------------------------------
+  a=_a!0@1 (00000101 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 212 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_stability.h line 37 function verify_stability thread 0
+----------------------------------------------------
+  n=2 (00000000 00000000 00000000 00000010)
+
+State 213 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 62 function check_stability thread 0
+----------------------------------------------------
+  lines=0 (00000000 00000000 00000000 00000000)
+
+State 214 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 62 function check_stability thread 0
+----------------------------------------------------
+  lines=3 (00000000 00000000 00000000 00000011)
+
+State 215 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 63 function check_stability thread 0
+----------------------------------------------------
+  columns=0 (00000000 00000000 00000000 00000000)
+
+State 216 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 63 function check_stability thread 0
+----------------------------------------------------
+  columns=2 (00000000 00000000 00000000 00000010)
+
+State 221 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 64 function check_stability thread 0
+----------------------------------------------------
+  m={ { 0.0, 0.0 }, { 0.0, 0.0 }, { 0.0, 0.0 } } ({ { 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 }, { 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 }, { 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 } })
+
+State 222 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 65 function check_stability thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 223 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 65 function check_stability thread 0
+----------------------------------------------------
+  j=0 (00000000 00000000 00000000 00000000)
+
+State 226 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 69 function check_stability thread 0
+----------------------------------------------------
+  current_stability={ 0.0, 0.0 } ({ 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000, 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 })
+
+State 227 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 70 function check_stability thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 229 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 71 function check_stability thread 0
+----------------------------------------------------
+  current_stability[0l]=1.0 (00111111 11110000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 230 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 70 function check_stability thread 0
+----------------------------------------------------
+  i=1 (00000000 00000000 00000000 00000001)
+
+State 233 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 71 function check_stability thread 0
+----------------------------------------------------
+  current_stability[1l]=-1.0 (10111111 11110000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 234 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 70 function check_stability thread 0
+----------------------------------------------------
+  i=2 (00000000 00000000 00000000 00000010)
+
+State 237 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 75 function check_stability thread 0
+----------------------------------------------------
+  sum=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 238 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 75 function check_stability thread 0
+----------------------------------------------------
+  sum=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 239 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 76 function check_stability thread 0
+----------------------------------------------------
+  i=0 (00000000 00000000 00000000 00000000)
+
+State 241 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 77 function check_stability thread 0
+----------------------------------------------------
+  sum=1.0 (00111111 11110000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 242 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 76 function check_stability thread 0
+----------------------------------------------------
+  i=1 (00000000 00000000 00000000 00000001)
+
+State 245 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 77 function check_stability thread 0
+----------------------------------------------------
+  sum=0.0 (00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000)
+
+State 246 file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/core/util.h line 76 function check_stability thread 0
+----------------------------------------------------
+  i=2 (00000000 00000000 00000000 00000010)
+[DEBUG] the first constraint of Jury criteria failed: (F(1) > 0)
+
+Violated property:
+  file /home/yashchopda/Desktop/dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6/bmc/engine/verify_stability.h line 37 function verify_stability
+  assertion check_stability(_a, ds.a_size)
+  return_value_check_stability != 0
+
+
+
+** 1 of 27 failed (2 iterations)
+VERIFICATION FAILED
