@@ -5,20 +5,20 @@ Project Supervisior - Dr. Lucas Cordeiro
 
 
 -------------------
-#### Aim: 
+### Aim: 
 To investigate low level implementation errors related to digital controllers and hardware compatibility. 
 To check how digital controllers are susceptible to violations according to fixed point implementations.
 To reproduce and validate the results produced by DSVerifier with external tools like CBMC v5.11 with Mini-
 Sat Solver, ESBMC v6.6.0 with Boolector and Verifuzz using CBMC v5.10 with Glucose Syrup solver.
      
 -------------------
-#### Benchmarks:
+### Benchmarks:
 The results in the experiment done are based on a real quadcopter attitude control system used for for aerial surveillance.
 The properties verified are Limit Cycle, Overflow by Saturation, Overflow by Wrap-Around and Stability. Verification is used for
 5, 10 and 15 bounds.
 
 --------------------
-#### Pre-requisites- System Requirements:
+### Pre-requisites- System Requirements:
 1) gcc 5.4 or higher
 2) Eigen Library to be installed depending on distribution.
 3) Install time limit using:
@@ -27,14 +27,14 @@ The properties verified are Limit Cycle, Overflow by Saturation, Overflow by Wra
 Note: for all verifications, the time limit used is 3600s
 
 ---------------------
-#### Repository Structure:
+### Repository Structure:
 benchmarks- It contains tr2018 with Controller_Implementations containing the ANSI C implementations. Results_DSVERIFIER contains 
 results for properties LimitCycle, Overflow-Saturate-Mode, Overflow-WrapAround-Mode and Stability in which you can find result logs for
 k=5,10 and 15 with the tables containing verification results. The folders LimitCycle, Overflow-Saturate-Mode, Overflow-WrapAround-Mode and Stability in tr2018 contains Verification bounds and each contains 3 folders that are external tools used. Eact external tool folder contains 3 realizations, DFI, DFII and TDFII which contains the preprocessed c files for those tools and the result logs contains all the logs(results) for the verification.
 
 ---------------------
-#### Tools:
-##### DSVERIFIER
+### Tools:
+#### DSVERIFIER
 It is a verification tool for digital systems. In this project we are using dsverifier-v2.0.3-esbmc-v4.0-cbmc-5.6.
 
 To download the latest verison and to set up the tool go to-
@@ -82,7 +82,7 @@ Solver used is boolector, other available are z3 and yices.
 To generate counterexample data add --show-ce-data.
 
 	
-##### CBMC v5.11 using Mini-SAT solver - external tool 
+#### CBMC v5.11 using Mini-SAT solver - external tool 
 Download : 
 https://www.cprover.org/cbmc/download/cbmc-5-11-linux-64.tgz
 Extract the tool and open the directory and check ./cbmc --version and if it says 5.11 (cbmc-5.11) then it is correctly set up.
@@ -132,7 +132,7 @@ In the directory:
 where prp is LimitCycle, Overflow-Saturate-Mode, Overflow-WrapAround-Mode and Stability, k is 5, 10, 15,
 r is DFI, DFII, TDFII and implementation is controller implementation name example ds-01-impl1.
 	
-##### ESBMC v5.11 using Boolector solver - external tool 
+#### ESBMC v5.11 using Boolector solver - external tool 
 
 Installation:
 Run ./ESBMC-Linux.sh , if it doesnt execute because of error : permission denied do chmod u+x ESBMC-Linux.sh 
@@ -184,7 +184,7 @@ In the directory:
 where prp is LimitCycle, Overflow-Saturate-Mode, Overflow-WrapAround-Mode and Stability, k is 5, 10, 15,
 r is DFI, DFII, TDFII and implementation is controller implementation name example ds-01-impl1.
 
-##### CBMC v5.10 with Glucose Syrup solver - external tool 
+#### CBMC v5.10 with Glucose Syrup solver - external tool 
 Download :
 Extract the tool and open the directory and check ./bin/CBMCv5.10/cbmc --version and if it says 5.10 (cbmc-5.10) then cbmc is correctly set up.
 	
