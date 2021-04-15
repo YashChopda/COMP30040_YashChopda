@@ -121,14 +121,15 @@ and result.out is output file with result obtained. trace is used to get counter
 	
 **example**: 
 
-	timelimit -t3600 ./cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/CBMCv5.11 Mini-SAT/DFI/ds-01-impl1.c --trace > 
-	~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/CBMCv5.11 Mini-SAT/DFII/result_logs/ds-01-impl1.out
+	timelimit -t3600 ./cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/CBMCv5.11-Mini-SAT/DFI/ds-01-impl1.c --trace > 
+	~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/CBMCv5.11-Mini-SAT/DFII/result_logs/ds-01-impl1.out
 		
 To make execution of benchmarks(of this project only) easier one can use following command:
 In the directory:
 
-	timelimit -t3600 ./cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/CBMCv5.11 Mini-SAT/<r>/
-	<implementation>.c --trace > ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/CBMC/<r>/result_logs/<implementation>.out
+	timelimit -t3600 ./cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/CBMCv5.11-Mini-SAT/<r>/
+	<implementation>.c --trace > ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/CBMCv5.11-Mini-SAT/<r>/result_logs/
+	<implementation>.out
 
 where prp is LimitCycle, Overflow-Saturate-Mode, Overflow-WrapAround-Mode and Stability, k is 5, 10, 15,
 r is DFI, DFII, TDFII and implementation is controller implementation name example ds-01-impl1.
@@ -136,6 +137,8 @@ r is DFI, DFII, TDFII and implementation is controller implementation name examp
 #### ESBMC v5.11 using Boolector solver - external tool 
 
 Installation:
+Download:
+https://github.com/YashChopda/COMP30040_YashChopda/blob/main/ESBMC-Linux.sh
 Run ./ESBMC-Linux.sh , if it doesnt execute because of error : permission denied do chmod u+x ESBMC-Linux.sh 
 After accepting everything you will get ESBMCv6.6.0.
 	   
@@ -187,9 +190,9 @@ r is DFI, DFII, TDFII and implementation is controller implementation name examp
 
 #### CBMC v5.10 with Glucose Syrup solver - external tool 
 Download :
-Extract the tool and open the directory and check ./bin/CBMCv5.10/cbmc --version and if it says 5.10 (cbmc-5.10) then cbmc is correctly set up.
-	
-	
+https://github.com/YashChopda/COMP30040_YashChopda/blob/main/bin/CBMCv5.10/cbmc
+open the directory and check ./cbmc --version and if it says 5.10 (cbmc-5.10) then cbmc is correctly set up.
+		
 **Preprocessing**:
 Firstly, for every verification, we need create a C file of controller implementations which is compatible for cbmc.
 We need to preprocess it using following command:
@@ -212,22 +215,22 @@ WRAPAROUND.
 	
 **Execution**: 
 	
-	timelimit <t> ./bin/CBMCv5.10/cbmc <file> --trace > <result.out>
+	timelimit <t> ./cbmc <file> --trace > <result.out>
 
 where t is time in seconds for program to timeout, file is the preprocessed file obtained for that particular verification
 and result.out is output file with result obtained. trace is used to get counter example.
 	
 **example**:
 
-	timelimit -t3600 ./bin/CBMCv5.10/cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/CBMCv5.10 Glucose-Syrup/DFI/
-	ds-01-impl1.c --trace > ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/CBMCv5.10 Glucose-Syrup/DFII/result_logs/
+	timelimit -t3600 ./cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/CBMCv5.10-Glucose-Syrup/DFI/
+	ds-01-impl1.c --trace > ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/CBMCv5.10-Glucose-Syrup/DFII/result_logs/
 	ds-01-impl1.out
 		
 To make execution of benchmarks(of this project only) easier one can use following command:
 In the directory:
 
-	  timelimit -t3600 ./bin/CBMCv5.10/cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/CBMCv5.10 Glucose-Syrup/
-	  <r>/<implementation>.c --trace > ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/CBMCv5.10 Glucose-Syrup/<r>/
+	  timelimit -t3600 ./cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/CBMCv5.10-Glucose-Syrup/
+	  <r>/<implementation>.c --trace > ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/CBMCv5.10-Glucose-Syrup/<r>/
 	  result_logs/<implementation>.out
 	  
 where prp is LimitCycle, Overflow-Saturate-Mode, Overflow-WrapAround-Mode and Stability, k is 5, 10, 15,
