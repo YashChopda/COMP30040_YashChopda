@@ -9,7 +9,7 @@ Project Supervisior - Dr. Lucas Cordeiro
 To investigate low level implementation errors related to digital controllers and hardware compatibility. 
 To check how digital controllers are susceptible to violations according to fixed point implementations.
 To reproduce and validate the results produced by DSVerifier with external tools like CBMC v5.11 with Mini-
-Sat Solver, ESBMC v6.6.0 with Boolector and Verifuzz using CBMC v5.10 with Glucose Syrup solver.
+Sat Solver, ESBMC v6.6.0 with Boolector and CBMCv5.10 Glucose-Syrup using CBMC v5.10 with Glucose Syrup solver.
      
 -------------------
 ### Benchmarks:
@@ -94,7 +94,7 @@ Extract the tool and open the directory and check ./cbmc --version and if it say
 Firstly, for every verification, we need create a C file of controller implementations which is compatible for cbmc.
 We need to preprocess it using following command:
 	
-	gcc -E <file> -DBMC=CBMC -I <bmc path> -DREALIZATION=<r> - DPROPERTY=<prp> -DX_SIZE =<k> > <output file>	
+	gcc -E <file> -DBMC=CBMC -I <bmc path> -DREALIZATION=<r> -DPROPERTY=<prp> -DX_SIZE =<k> > <output file>	
         
 where file is the original controller implementation file to be verified, prp is the property to be verified,
 r is the realisation form, k is the verification bound, bmc path is the path of bmc folder of dsverifierv2.0.3 and 
@@ -121,14 +121,14 @@ and result.out is output file with result obtained. trace is used to get counter
 	
 **example**: 
 
-	timelimit -t3600 ./cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/CBMC/DFI/ds-01-impl1.c --trace > 
-	~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/CBMC/DFII/result_logs/ds-01-impl1.out
+	timelimit -t3600 ./cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/CBMCv5.11 Mini-SAT/DFI/ds-01-impl1.c --trace > 
+	~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/CBMCv5.11 Mini-SAT/DFII/result_logs/ds-01-impl1.out
 		
 To make execution of benchmarks(of this project only) easier one can use following command:
 In the directory:
 
-		  timelimit -t3600 ./cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/CBMC/<r>/<implementation>.c --trace > 
-	         ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/CBMC/<r>/result_logs/<implementation>.out
+	timelimit -t3600 ./cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/CBMCv5.11 Mini-SAT/<r>/
+	<implementation>.c --trace > ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/CBMC/<r>/result_logs/<implementation>.out
 
 where prp is LimitCycle, Overflow-Saturate-Mode, Overflow-WrapAround-Mode and Stability, k is 5, 10, 15,
 r is DFI, DFII, TDFII and implementation is controller implementation name example ds-01-impl1.
@@ -219,14 +219,16 @@ and result.out is output file with result obtained. trace is used to get counter
 	
 **example**:
 
-	timelimit -t3600 ./bin/CBMCv5.10/cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/Verifuzz/DFI/ds-01-impl1.c 
-	--trace > ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/Verifuzz/DFII/result_logs/ds-01-impl1.out
+	timelimit -t3600 ./bin/CBMCv5.10/cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/CBMCv5.10 Glucose-Syrup/DFI/
+	ds-01-impl1.c --trace > ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/CBMCv5.10 Glucose-Syrup/DFII/result_logs/
+	ds-01-impl1.out
 		
 To make execution of benchmarks(of this project only) easier one can use following command:
 In the directory:
 
-	  timelimit -t3600 ./bin/CBMCv5.10/cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/Verifuzz/<r>/<implementation>.c 
-	  --trace > ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/Verifuzz/<r>/result_logs/<implementation>.out
+	  timelimit -t3600 ./bin/CBMCv5.10/cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/CBMCv5.10 Glucose-Syrup/
+	  <r>/<implementation>.c --trace > ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/CBMCv5.10 Glucose-Syrup/<r>/
+	  result_logs/<implementation>.out
 	  
 where prp is LimitCycle, Overflow-Saturate-Mode, Overflow-WrapAround-Mode and Stability, k is 5, 10, 15,
 r is DFI, DFII, TDFII and implementation is controller implementation name example ds-01-impl1.
