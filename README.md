@@ -62,6 +62,7 @@ For verification using DSVERIFIER it is necessary for a file to be in the follow
 	```
 	
 Execution - 
+
 	./dsverifier <file> --property <prp> --realisation <r> --x-size <k> 
 	--bmc <modelChecker> --solver <s> --timeout <t>
 		     
@@ -106,6 +107,7 @@ WRAPAROUND.
 Realisation forms: DFI, DFII, TDFII
 	             	
 example: 
+
 	gcc -E benchmarks/tr2018/Controller_Implemetations/ds-01-impl1.c -DBMC=CBMC -I /home/COMP30040_YashChopda/bmc 
 	-DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE =10 > myFile.c 
 	
@@ -117,6 +119,7 @@ where t is time in seconds for program to timeout, file is the preprocessed file
 and result.out is output file with result obtained. trace is used to get counter example.
 	
 example: 
+
 	timelimit -t3600 ./cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/CBMC/DFI/ds-01-impl1.c --trace > 
 	~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/CBMC/DFII/result_logs/ds-01-impl1.out
 		
@@ -154,6 +157,7 @@ WRAPAROUND.
 Realisation forms: DFI, DFII, TDFII
 	             	
 example: 
+
 	gcc -E benchmarks/tr2018/Controller_Implemetations/ds-01-impl1.c -DBMC=ESBMC -I /home/COMP30040_YashChopda/bmc 
 	-DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE =10 > myFile.c 
 	
@@ -167,6 +171,7 @@ where t is time in seconds for program to timeout, file is the preprocessed file
 and result.out is output file with result obtained. trace is used to get counter example.
 	
 example: 
+
 	./esbmc ~/COMP30040_YashChopda/benchmarks/tr2018/Stability/K=15/ESBMC/TDFII/ds-01-impl1.c --show-cex --timeout 3600 > 
 	~/COMP30040_YashChopda/benchmarks/tr2018/Stability/K=15/ESBMC/TDFII/result_logs/ds-01-impl1.out 
 		
