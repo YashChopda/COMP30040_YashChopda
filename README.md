@@ -188,7 +188,8 @@ WRAPAROUND.
 	             
 Realisation forms: DFI, DFII, TDFII
             	
-example: 
+example:
+ 
 	gcc -E benchmarks/tr2018/Controller_Implemetations/ds-01-impl1.c -DBMC=CBMC -I /home/COMP30040_YashChopda/bmc -DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE =10 > myFile.c 
 	
 Execution: 
