@@ -168,10 +168,9 @@ Download : https://www.cprover.org/cbmc/download/cbmc-5-11-linux-64.tgz
 	where <prp> is LimitCycle, Overflow-Saturate-Mode, Overflow-WrapAround-Mode and Stability, <k> is 5, 10, 15,
 	<r> is DFI, DFII, TDFII and <implementation> is controller implementation name example ds-01-impl1.
 
-##### Verifuzz using CBMC v5.10 Glucose Syrup solver - external tool 
-Download : https://gitlab.com/sosy-lab/sv-comp/archives-2020/-/raw/master/2020/verifuzz.zip
-	   extract the tool and open the directory and check ./bin/cbmc --version and if it says 5.10 (cbmc-5.10) then cbmc is correctly 
-	   set up.
+##### CBMC v5.10 with Glucose Syrup solver - external tool 
+Download :
+Extract the tool and open the directory and check ./bin/CBMCv5.10/cbmc --version and if it says 5.10 (cbmc-5.10) then cbmc is correctly set up.
 	
 	
 Preprocessing:
@@ -194,17 +193,19 @@ example:
 	
 Execution: 
 	
-	timelimit <t> ./bin/cbmc <file> --trace > <result.out>
+	timelimit <t> ./bin/CBMCv5.10/cbmc <file> --trace > <result.out>
 
 where t is time in seconds for program to timeout, file is the preprocessed file obtained for that particular verification
 and result.out is output file with result obtained. trace is used to get counter example.
 	
-	example:
-	timelimit -t3600 ./bin/cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/Verifuzz/DFI/ds-01-impl1.c --trace > ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/Verifuzz/DFII/result_logs/ds-01-impl1.out
+example:
+
+	timelimit -t3600 ./bin/CBMCv5.10/cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/Verifuzz/DFI/ds-01-impl1.c --trace > ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/Verifuzz/DFII/result_logs/ds-01-impl1.out
 		
 To make execution of benchmarks(of this project only) easier one can use following command:
 In the directory:
-	  timelimit -t3600 ./bin/cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/Verifuzz/<r>/<implementation>.c --trace > ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/Verifuzz/<r>/result_logs/<implementation>.out
+
+	  timelimit -t3600 ./bin/CBMCv5.10/cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/Verifuzz/<r>/<implementation>.c --trace > ~/COMP30040_YashChopda/benchmarks/tr2018/<prp>/K=<k>/Verifuzz/<r>/result_logs/<implementation>.out
 	  
 where prp is LimitCycle, Overflow-Saturate-Mode, Overflow-WrapAround-Mode and Stability, k is 5, 10, 15,
 r is DFI, DFII, TDFII and implementation is controller implementation name example ds-01-impl1.
