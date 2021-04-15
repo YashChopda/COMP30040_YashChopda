@@ -22,13 +22,14 @@ The properties verified are Limit Cycle, Overflow by Saturation, Overflow by Wra
 1) gcc 5.4 or higher
 2) Eigen Library to be installed depending on distribution.
 3) Install time limit using:
-     - sudo apt install timelimit 
+     
+	sudo apt install timelimit 
 
 Note: for all verifications, the time limit used is 3600s
 
 ---------------------
 ### Repository Structure:
-benchmarks- It contains tr2018 with Controller_Implementations containing the ANSI C implementations. Results_DSVERIFIER contains 
+Benchmarks- It contains tr2018 with Controller_Implementations containing the ANSI C implementations. Results_DSVERIFIER contains 
 results for properties LimitCycle, Overflow-Saturate-Mode, Overflow-WrapAround-Mode and Stability in which you can find result logs for
 k=5,10 and 15 with the tables containing verification results. The folders LimitCycle, Overflow-Saturate-Mode, Overflow-WrapAround-Mode and Stability in tr2018 contains Verification bounds and each contains 3 folders that are external tools used. Eact external tool folder contains 3 realizations, DFI, DFII and TDFII which contains the preprocessed c files for those tools and the result logs contains all the logs(results) for the verification.
 
@@ -61,7 +62,7 @@ For verification using DSVERIFIER it is necessary for a file to be in the follow
 	};
 	```
 	
-Execution - 
+**Execution** - 
 
 	./dsverifier <file> --property <prp> --realisation <r> --x-size <k> 
 	--bmc <modelChecker> --solver <s> --timeout <t>
@@ -70,14 +71,14 @@ where file is the controller implementation file to be verified, prp is the prop
 r is the realisation form, k is the verification bound, s is the solver used, t is time in seconds for
 program to timeout and modelChecker is the bounded model checker used like CBMC (v5.6) or ESBMC (v4.0.0).
 		     
-Properties: 
+****Properties**:** 
 LIMITCYCLE, STABILITY, OVERFLOW.
 While verifying overflow using Saturation and WrapAround, we use --overflow-mode o where o can be SATURATE and
 WRAPAROUND. 
 	             
-Realisation forms: DFI, DFII, TDFII
+****Realisation forms****: DFI, DFII, TDFII
 	             
-Solver used is boolector, other available are z3 and yices.
+**Solver** used is boolector, other available are z3 and yices.
 	             
 To generate counterexample data add --show-ce-data.
 
@@ -88,7 +89,7 @@ https://www.cprover.org/cbmc/download/cbmc-5-11-linux-64.tgz
 Extract the tool and open the directory and check ./cbmc --version and if it says 5.11 (cbmc-5.11) then it is correctly set up.
 	
 	
-Preprocessing:
+**Preprocessing**:
 	
 Firstly, for every verification, we need create a C file of controller implementations which is compatible for cbmc.
 We need to preprocess it using following command:
@@ -99,26 +100,26 @@ where file is the original controller implementation file to be verified, prp is
 r is the realisation form, k is the verification bound, bmc path is the path of bmc folder of dsverifierv2.0.3 and 
 output file is the resulting preprocessed c file which will be used to verify using CBMC v5.11.
 	     
-Properties: 
+**Properties**: 
 LIMITCYCLE, STABILITY, OVERFLOW.
 While verifying overflow using Saturation and WrapAround, we use --overflow-mode <o> where o can be SATURATE and
 WRAPAROUND. 
 	             
-Realisation forms: DFI, DFII, TDFII
+**Realisation forms**: DFI, DFII, TDFII
 	             	
-example: 
+**example**: 
 
 	gcc -E benchmarks/tr2018/Controller_Implemetations/ds-01-impl1.c -DBMC=CBMC -I /home/COMP30040_YashChopda/bmc 
 	-DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE =10 > myFile.c 
 	
-Execution: 
+**Execution**: 
 	
 	timelimit <t> ./cbmc <file> --trace > <result.out>
 	
 where t is time in seconds for program to timeout, file is the preprocessed file obtained for that particular verification
 and result.out is output file with result obtained. trace is used to get counter example.
 	
-example: 
+**example**: 
 
 	timelimit -t3600 ./cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/CBMC/DFI/ds-01-impl1.c --trace > 
 	~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/CBMC/DFII/result_logs/ds-01-impl1.out
@@ -138,7 +139,7 @@ Installation:
 Run ./ESBMC-Linux.sh , if it doesnt execute because of error : permission denied do chmod u+x ESBMC-Linux.sh 
 After accepting everything you will get ESBMCv6.6.0.
 	   
-Preprocessing:
+**Preprocessing**:
 	
 Firstly, for every verification, we need create a C file of controller implementations which is compatible for esbmc.
 We need to preprocess it using following command:
@@ -149,19 +150,19 @@ where file is the original controller implementation file to be verified, prp is
 r is the realisation form, k is the verification bound, bmc path is the path of bmc folder of dsverifierv2.0.3 and 
 output file is the resulting preprocessed c file which will be used to verify using CBMC v5.11.
 	     
-Properties: 
+**Properties**: 
 LIMITCYCLE, STABILITY, OVERFLOW.
 While verifying overflow using Saturation and WrapAround, we use --overflow-mode <o> where o can be SATURATE and
 WRAPAROUND. 
 	             
-Realisation forms: DFI, DFII, TDFII
+**Realisation forms**: DFI, DFII, TDFII
 	             	
-example: 
+**example**: 
 
 	gcc -E benchmarks/tr2018/Controller_Implemetations/ds-01-impl1.c -DBMC=ESBMC -I /home/COMP30040_YashChopda/bmc 
 	-DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE =10 > myFile.c 
 	
-Execution: 
+**Execution**: 
 	
 Enter following command in bin file.
 
@@ -170,7 +171,7 @@ Enter following command in bin file.
 where t is time in seconds for program to timeout, file is the preprocessed file obtained for that particular verification
 and result.out is output file with result obtained. trace is used to get counter example.
 	
-example: 
+**example**: 
 
 	./esbmc ~/COMP30040_YashChopda/benchmarks/tr2018/Stability/K=15/ESBMC/TDFII/ds-01-impl1.c --show-cex --timeout 3600 > 
 	~/COMP30040_YashChopda/benchmarks/tr2018/Stability/K=15/ESBMC/TDFII/result_logs/ds-01-impl1.out 
@@ -189,7 +190,7 @@ Download :
 Extract the tool and open the directory and check ./bin/CBMCv5.10/cbmc --version and if it says 5.10 (cbmc-5.10) then cbmc is correctly set up.
 	
 	
-Preprocessing:
+**Preprocessing**:
 Firstly, for every verification, we need create a C file of controller implementations which is compatible for cbmc.
 We need to preprocess it using following command:
 	
@@ -197,26 +198,26 @@ We need to preprocess it using following command:
         
 where file is the original controller implementation file to be verified, prp is the property to be verified, r is the realisation form, k is the verification bound, 'bmc path' is the path of bmc folder of dsverifierv2.0.3 and output file is the resulting preprocessed c file which will be used to verify using CBMC v5.10.
 	     
-Properties: 
+**Properties**: 
 LIMITCYCLE, STABILITY, OVERFLOW.
 While verifying overflow using Saturation and WrapAround, we use --overflow-mode <o> where o can be SATURATE and
 WRAPAROUND. 
 	             
-Realisation forms: DFI, DFII, TDFII
+**Realisation forms**: DFI, DFII, TDFII
             	
-example:
+**example**:
  
 	gcc -E benchmarks/tr2018/Controller_Implemetations/ds-01-impl1.c -DBMC=CBMC -I /home/COMP30040_YashChopda/bmc 
 	-DREALIZATION=DFI -DPROPERTY=LIMIT_CYCLE -DX_SIZE =10 > myFile.c 
 	
-Execution: 
+**Execution**: 
 	
 	timelimit <t> ./bin/CBMCv5.10/cbmc <file> --trace > <result.out>
 
 where t is time in seconds for program to timeout, file is the preprocessed file obtained for that particular verification
 and result.out is output file with result obtained. trace is used to get counter example.
 	
-example:
+**example**:
 
 	timelimit -t3600 ./bin/CBMCv5.10/cbmc ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/Verifuzz/DFI/ds-01-impl1.c 
 	--trace > ~/COMP30040_YashChopda/benchmarks/tr2018/LimitCycle/K=5/Verifuzz/DFII/result_logs/ds-01-impl1.out
